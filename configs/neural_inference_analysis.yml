@@ -1,0 +1,19 @@
+project:
+  inference_realizations: 500
+  frequency_grid_size: 2048
+  data_lengths: [64, 128, 256, 512, 1024]
+
+inference:
+  device: auto
+  batch_size: 4096
+  seed: 99
+
+analysis:
+  impulse_response_max_lag: 160
+
+paths:
+  inference_input_dir: data/neural_training/inference_inputs
+  model_dir: outputs/models
+  prediction_dir: outputs/neural_spectral_estimation/predictions
+  analysis_dir: outputs/neural_spectral_estimation
+  figures_dir: outputs/figures

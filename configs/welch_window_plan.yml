@@ -1,0 +1,19 @@
+welch:
+  window: hann
+  segments_by_length:
+    64:
+      segment_length: 32
+      overlap: 16
+    128:
+      segment_length: 64
+      overlap: 32
+    256:
+      segment_length: 128
+      overlap: 64
+    512:
+      segment_length: 256
+      overlap: 128
+    1024:
+      segment_length: 256
+      overlap: 128
+

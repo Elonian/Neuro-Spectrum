@@ -1,0 +1,3 @@
+2026-05-02 02:20:06 | INFO | estimate_impulse_response_from_learned_outputs | Log file: /mntdata/src/Neuro-Spectrum/logs/estimate_impulse_response_from_learned_outputs.log
+2026-05-02 02:20:07 | INFO | estimate_impulse_response_from_learned_outputs | Saved impulse response estimate for lstm to /mntdata/src/Neuro-Spectrum/outputs/neural_spectral_estimation/impulse_response_estimate_lstm_lag_96.npz
+2026-05-02 02:20:09 | INFO | estimate_impulse_response_from_learned_outputs | Saved impulse response estimate for mlp to /mntdata/src/Neuro-Spectrum/outputs/neural_spectral_estimation/impulse_response_estimate_mlp_lag_160.npz

@@ -1,0 +1,9 @@
+monte_carlo:
+  num_realizations: 500
+  seed: 123
+
+paths:
+  monte_carlo_realizations_npz: data/generated_processes/periodogram_monte_carlo_realizations.npz
+  periodogram_results_npz: outputs/classical_spectral_estimation/periodogram_statistics.npz
+  figures_dir: outputs/figures
+

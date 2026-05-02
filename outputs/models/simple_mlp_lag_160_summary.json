@@ -1,0 +1,13 @@
+{
+  "checkpoint": "/mntdata/src/Neuro-Spectrum/outputs/models/simple_mlp_lag_160.pt",
+  "final_test_mse": 0.15474139888112137,
+  "final_train_mse": 0.11095243692398071,
+  "lag": 160,
+  "learning_rate": 0.05,
+  "model": "mlp",
+  "saved_checkpoint_epoch": 133,
+  "saved_checkpoint_test_mse": 0.1542340348406536,
+  "selected_from_search_best_test_mse": 0.1542340348406536,
+  "selected_from_search_test_mse": 0.1547412872314453,
+  "selected_from_search_train_mse": 0.11095244437456131
+}

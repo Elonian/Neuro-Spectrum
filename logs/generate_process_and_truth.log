@@ -1,0 +1,3 @@
+2026-05-02 00:00:48 | INFO | generate_process_and_truth | Log file: /mntdata/src/Neuro-Spectrum/logs/generate_process_and_truth.log
+2026-05-02 00:00:48 | INFO | generate_process_and_truth | Saved reference process and truth arrays to /mntdata/src/Neuro-Spectrum/data/generated_processes/reference_process.npz
+2026-05-02 00:00:48 | INFO | generate_process_and_truth | Generated sample length=1024, burnin=4096, input lag=128, FFT grid=2048

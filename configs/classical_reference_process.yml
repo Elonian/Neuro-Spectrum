@@ -1,0 +1,11 @@
+project:
+  seed: 251
+  sample_length: 1024
+  reference_input_lag: 128
+  data_lengths: [64, 128, 256, 512, 1024]
+  frequency_grid_size: 2048
+
+paths:
+  reference_process_npz: data/generated_processes/reference_process.npz
+  autocorrelation_results_npz: outputs/classical_spectral_estimation/autocorrelation_estimates.npz
+  figures_dir: outputs/figures

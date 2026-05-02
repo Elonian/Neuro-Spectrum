@@ -1,0 +1,8 @@
+monte_carlo:
+  num_realizations: 500
+  seed: 124
+
+paths:
+  welch_results_npz: outputs/classical_spectral_estimation/welch_statistics.npz
+  figures_dir: outputs/figures
+

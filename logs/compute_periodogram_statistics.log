@@ -1,0 +1,4 @@
+2026-05-02 00:01:17 | INFO | compute_periodogram_statistics | Log file: /mntdata/src/Neuro-Spectrum/logs/compute_periodogram_statistics.log
+2026-05-02 00:01:17 | INFO | compute_periodogram_statistics | Saved 500 Monte Carlo process realizations to /mntdata/src/Neuro-Spectrum/data/generated_processes/periodogram_monte_carlo_realizations.npz
+2026-05-02 00:01:18 | INFO | compute_periodogram_statistics | Saved periodogram statistics to /mntdata/src/Neuro-Spectrum/outputs/classical_spectral_estimation/periodogram_statistics.npz
+2026-05-02 00:01:18 | INFO | compute_periodogram_statistics | Saved periodogram figures under /mntdata/src/Neuro-Spectrum/outputs/figures

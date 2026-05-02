@@ -1,0 +1,47 @@
+search:
+  epochs: 600
+  epochs_by_model:
+    mlp: 600
+    lstm: 600
+  batch_size: 0
+  test_fraction: 0.2
+  random_seed: 25101
+  save_loss_plots: true
+  max_trials_per_lag:
+    mlp: 24
+    lstm: 24
+  loss_panel:
+    layout: balanced
+  learning_rates: [0.2, 0.1, 0.05, 0.02, 0.01, 0.005, 0.003, 0.002, 0.001, 0.0007, 0.0005, 0.0003, 0.0001, 0.00003, 0.00001]
+  mlp:
+    hidden: [32, 64, 128, 256, 512]
+    num_hidden_layers: [0, 1, 2, 3, 4]
+  lstm:
+    hidden: [16, 32, 48, 64, 96, 128]
+    num_layers: [1, 2, 3]
+
+selected_training:
+  epochs: 1200
+  batch_size: 0
+  test_fraction: 0.2
+  learning_rate: 0.001
+
+selected_models:
+  mlp:
+    lag: 160
+    hidden: 512
+    num_hidden_layers: 0
+    learning_rate: 0.05
+    search_best_test_mse: 0.1542340348406536
+    selection_metric: best_test_mse
+  lstm:
+    lag: 96
+    hidden: 64
+    num_layers: 3
+    learning_rate: 0.02
+    search_best_test_mse: 5.077399723704269
+    selection_metric: best_test_mse
+
+paths:
+  search_dir: outputs/neural_spectral_estimation/configuration_search
+  selected_config_json: outputs/neural_spectral_estimation/selected_neural_configurations.json

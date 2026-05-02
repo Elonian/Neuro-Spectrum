@@ -1,0 +1,942 @@
+2026-05-02 01:36:56 | INFO | search_model_configurations | Log file: /mntdata/src/Neuro-Spectrum/logs/search_model_configurations.log
+2026-05-02 01:36:56 | INFO | search_model_configurations | Prepared 24/375 mlp trials for lag=16
+2026-05-02 01:36:56 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 0, 'learning_rate': 0.02}
+2026-05-02 01:37:00 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=5.082522e+01 final_test_mse=6.163417e+01
+2026-05-02 01:37:01 | INFO | search_model_configurations | Saved search progress after 1 completed trials
+2026-05-02 01:37:01 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 1, 'learning_rate': 0.02}
+2026-05-02 01:37:04 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=9.471091e+00 final_test_mse=1.271150e+02
+2026-05-02 01:37:05 | INFO | search_model_configurations | Saved search progress after 2 completed trials
+2026-05-02 01:37:05 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 1, 'learning_rate': 1e-05}
+2026-05-02 01:37:09 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=1.168289e+02 final_test_mse=1.079898e+02
+2026-05-02 01:37:10 | INFO | search_model_configurations | Saved search progress after 3 completed trials
+2026-05-02 01:37:10 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 4, 'learning_rate': 0.2}
+2026-05-02 01:37:13 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=2.092049e+01 final_test_mse=1.252819e+02
+2026-05-02 01:37:15 | INFO | search_model_configurations | Saved search progress after 4 completed trials
+2026-05-02 01:37:15 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 4, 'learning_rate': 0.005}
+2026-05-02 01:37:18 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=7.190289e-01 final_test_mse=1.726904e+02
+2026-05-02 01:37:19 | INFO | search_model_configurations | Saved search progress after 5 completed trials
+2026-05-02 01:37:19 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 0, 'learning_rate': 0.02}
+2026-05-02 01:37:22 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=5.177473e+01 final_test_mse=5.730091e+01
+2026-05-02 01:37:23 | INFO | search_model_configurations | Saved search progress after 6 completed trials
+2026-05-02 01:37:23 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 1, 'learning_rate': 0.0003}
+2026-05-02 01:37:26 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=5.380908e+01 final_test_mse=6.025720e+01
+2026-05-02 01:37:27 | INFO | search_model_configurations | Saved search progress after 7 completed trials
+2026-05-02 01:37:27 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 2, 'learning_rate': 0.0005}
+2026-05-02 01:37:30 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=3.221130e+01 final_test_mse=7.467912e+01
+2026-05-02 01:37:31 | INFO | search_model_configurations | Saved search progress after 8 completed trials
+2026-05-02 01:37:31 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 3, 'learning_rate': 0.002}
+2026-05-02 01:37:35 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=4.279077e-02 final_test_mse=1.424301e+02
+2026-05-02 01:37:52 | INFO | search_model_configurations | Saved search progress after 9 completed trials
+2026-05-02 01:37:52 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 4, 'learning_rate': 0.1}
+2026-05-02 01:37:56 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=5.415015e-01 final_test_mse=1.279060e+02
+2026-05-02 01:38:06 | INFO | search_model_configurations | Saved search progress after 10 completed trials
+2026-05-02 01:38:06 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 0, 'learning_rate': 0.02}
+2026-05-02 01:38:09 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=5.291164e+01 final_test_mse=5.430386e+01
+2026-05-02 01:38:25 | INFO | search_model_configurations | Saved search progress after 11 completed trials
+2026-05-02 01:38:25 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 3, 'learning_rate': 0.001}
+2026-05-02 01:38:28 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=8.387717e-01 final_test_mse=1.103632e+02
+2026-05-02 01:38:47 | INFO | search_model_configurations | Saved search progress after 12 completed trials
+2026-05-02 01:38:47 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 4, 'learning_rate': 0.1}
+2026-05-02 01:38:51 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=2.327645e+01 final_test_mse=9.553089e+01
+2026-05-02 01:38:51 | INFO | search_model_configurations | Saved search progress after 13 completed trials
+2026-05-02 01:38:51 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 0, 'learning_rate': 0.2}
+2026-05-02 01:38:54 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=5.225333e+01 final_test_mse=5.541994e+01
+2026-05-02 01:38:55 | INFO | search_model_configurations | Saved search progress after 14 completed trials
+2026-05-02 01:38:55 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 0, 'learning_rate': 0.0001}
+2026-05-02 01:38:59 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=1.107016e+02 final_test_mse=1.143198e+02
+2026-05-02 01:38:59 | INFO | search_model_configurations | Saved search progress after 15 completed trials
+2026-05-02 01:38:59 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 1, 'learning_rate': 0.002}
+2026-05-02 01:39:02 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=5.980422e+00 final_test_mse=8.031744e+01
+2026-05-02 01:39:03 | INFO | search_model_configurations | Saved search progress after 16 completed trials
+2026-05-02 01:39:03 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 2, 'learning_rate': 0.0007}
+2026-05-02 01:39:06 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=1.125577e-03 final_test_mse=8.676517e+01
+2026-05-02 01:39:07 | INFO | search_model_configurations | Saved search progress after 17 completed trials
+2026-05-02 01:39:07 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 3, 'learning_rate': 0.01}
+2026-05-02 01:39:11 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=5.954226e+00 final_test_mse=8.843749e+01
+2026-05-02 01:39:11 | INFO | search_model_configurations | Saved search progress after 18 completed trials
+2026-05-02 01:39:11 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 4, 'learning_rate': 0.0007}
+2026-05-02 01:39:14 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=1.631176e-01 final_test_mse=9.721535e+01
+2026-05-02 01:39:15 | INFO | search_model_configurations | Saved search progress after 19 completed trials
+2026-05-02 01:39:15 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 2, 'learning_rate': 0.05}
+2026-05-02 01:39:19 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=4.239968e-03 final_test_mse=1.020569e+02
+2026-05-02 01:39:20 | INFO | search_model_configurations | Saved search progress after 20 completed trials
+2026-05-02 01:39:20 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 2, 'learning_rate': 1e-05}
+2026-05-02 01:39:23 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=7.654890e+01 final_test_mse=8.591063e+01
+2026-05-02 01:39:24 | INFO | search_model_configurations | Saved search progress after 21 completed trials
+2026-05-02 01:39:24 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 3, 'learning_rate': 0.02}
+2026-05-02 01:39:27 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=3.419365e-01 final_test_mse=9.784202e+01
+2026-05-02 01:39:28 | INFO | search_model_configurations | Saved search progress after 22 completed trials
+2026-05-02 01:39:28 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 3, 'learning_rate': 0.003}
+2026-05-02 01:39:32 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=2.186961e-02 final_test_mse=1.021016e+02
+2026-05-02 01:39:33 | INFO | search_model_configurations | Saved search progress after 23 completed trials
+2026-05-02 01:39:33 | INFO | search_model_configurations | Search trial model=mlp lag=16 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 3, 'learning_rate': 3e-05}
+2026-05-02 01:39:37 | INFO | search_model_configurations | Search result model=mlp lag=16 final_train_mse=3.212406e+01 final_test_mse=6.507585e+01
+2026-05-02 01:39:37 | INFO | search_model_configurations | Saved search progress after 24 completed trials
+2026-05-02 01:39:37 | INFO | search_model_configurations | Prepared 24/375 mlp trials for lag=32
+2026-05-02 01:39:38 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 0, 'learning_rate': 0.05}
+2026-05-02 01:39:41 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=3.594372e+01 final_test_mse=3.995453e+01
+2026-05-02 01:39:42 | INFO | search_model_configurations | Saved search progress after 25 completed trials
+2026-05-02 01:39:42 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 0, 'learning_rate': 0.0005}
+2026-05-02 01:39:45 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=1.153360e+02 final_test_mse=1.212709e+02
+2026-05-02 01:39:46 | INFO | search_model_configurations | Saved search progress after 26 completed trials
+2026-05-02 01:39:46 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 2, 'learning_rate': 0.2}
+2026-05-02 01:39:49 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=1.148938e+00 final_test_mse=9.243189e+01
+2026-05-02 01:39:50 | INFO | search_model_configurations | Saved search progress after 27 completed trials
+2026-05-02 01:39:50 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 3, 'learning_rate': 0.05}
+2026-05-02 01:39:54 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=1.458675e-03 final_test_mse=9.844159e+01
+2026-05-02 01:39:57 | INFO | search_model_configurations | Saved search progress after 28 completed trials
+2026-05-02 01:39:57 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 3, 'learning_rate': 0.01}
+2026-05-02 01:40:00 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=1.299094e+00 final_test_mse=1.080225e+02
+2026-05-02 01:40:01 | INFO | search_model_configurations | Saved search progress after 29 completed trials
+2026-05-02 01:40:01 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 4, 'learning_rate': 0.02}
+2026-05-02 01:40:05 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=8.499102e-05 final_test_mse=8.036547e+01
+2026-05-02 01:40:05 | INFO | search_model_configurations | Saved search progress after 30 completed trials
+2026-05-02 01:40:05 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 2, 'learning_rate': 0.003}
+2026-05-02 01:40:09 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=7.503205e-05 final_test_mse=8.068476e+01
+2026-05-02 01:40:10 | INFO | search_model_configurations | Saved search progress after 31 completed trials
+2026-05-02 01:40:10 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 2, 'learning_rate': 0.001}
+2026-05-02 01:40:13 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=3.554674e-01 final_test_mse=7.346694e+01
+2026-05-02 01:40:14 | INFO | search_model_configurations | Saved search progress after 32 completed trials
+2026-05-02 01:40:14 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 2, 'learning_rate': 1e-05}
+2026-05-02 01:40:17 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=1.409117e+02 final_test_mse=1.544765e+02
+2026-05-02 01:40:19 | INFO | search_model_configurations | Saved search progress after 33 completed trials
+2026-05-02 01:40:19 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 4, 'learning_rate': 0.003}
+2026-05-02 01:40:23 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=4.929063e-05 final_test_mse=8.521200e+01
+2026-05-02 01:40:24 | INFO | search_model_configurations | Saved search progress after 34 completed trials
+2026-05-02 01:40:24 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 1, 'learning_rate': 0.005}
+2026-05-02 01:40:27 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=1.267513e-02 final_test_mse=9.356623e+01
+2026-05-02 01:40:31 | INFO | search_model_configurations | Saved search progress after 35 completed trials
+2026-05-02 01:40:31 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 1, 'learning_rate': 0.002}
+2026-05-02 01:40:34 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=4.003560e+00 final_test_mse=6.637006e+01
+2026-05-02 01:40:35 | INFO | search_model_configurations | Saved search progress after 36 completed trials
+2026-05-02 01:40:35 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 1, 'learning_rate': 0.0003}
+2026-05-02 01:40:39 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=3.190979e+01 final_test_mse=3.974293e+01
+2026-05-02 01:40:39 | INFO | search_model_configurations | Saved search progress after 37 completed trials
+2026-05-02 01:40:39 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 2, 'learning_rate': 0.1}
+2026-05-02 01:40:43 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=8.937856e-01 final_test_mse=6.360542e+01
+2026-05-02 01:40:44 | INFO | search_model_configurations | Saved search progress after 38 completed trials
+2026-05-02 01:40:44 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 1, 'learning_rate': 0.1}
+2026-05-02 01:40:47 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=3.733986e-04 final_test_mse=8.043979e+01
+2026-05-02 01:40:48 | INFO | search_model_configurations | Saved search progress after 39 completed trials
+2026-05-02 01:40:48 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 1, 'learning_rate': 0.02}
+2026-05-02 01:40:51 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=4.935918e-02 final_test_mse=8.444128e+01
+2026-05-02 01:40:53 | INFO | search_model_configurations | Saved search progress after 40 completed trials
+2026-05-02 01:40:53 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 1, 'learning_rate': 0.0001}
+2026-05-02 01:40:56 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=6.427537e+01 final_test_mse=7.998860e+01
+2026-05-02 01:40:57 | INFO | search_model_configurations | Saved search progress after 41 completed trials
+2026-05-02 01:40:57 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 4, 'learning_rate': 0.05}
+2026-05-02 01:41:01 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=7.048292e+00 final_test_mse=7.801655e+01
+2026-05-02 01:41:02 | INFO | search_model_configurations | Saved search progress after 42 completed trials
+2026-05-02 01:41:02 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 0, 'learning_rate': 0.001}
+2026-05-02 01:41:06 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=1.000731e+02 final_test_mse=9.460566e+01
+2026-05-02 01:41:06 | INFO | search_model_configurations | Saved search progress after 43 completed trials
+2026-05-02 01:41:06 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 0, 'learning_rate': 3e-05}
+2026-05-02 01:41:10 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=1.475605e+02 final_test_mse=1.363880e+02
+2026-05-02 01:41:11 | INFO | search_model_configurations | Saved search progress after 44 completed trials
+2026-05-02 01:41:11 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 1, 'learning_rate': 0.005}
+2026-05-02 01:41:14 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=1.445013e-12 final_test_mse=6.845771e+01
+2026-05-02 01:41:15 | INFO | search_model_configurations | Saved search progress after 45 completed trials
+2026-05-02 01:41:15 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 2, 'learning_rate': 0.1}
+2026-05-02 01:41:18 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=3.321415e-03 final_test_mse=7.049199e+01
+2026-05-02 01:41:19 | INFO | search_model_configurations | Saved search progress after 46 completed trials
+2026-05-02 01:41:19 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 2, 'learning_rate': 0.05}
+2026-05-02 01:41:22 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=2.433892e-05 final_test_mse=5.869498e+01
+2026-05-02 01:41:23 | INFO | search_model_configurations | Saved search progress after 47 completed trials
+2026-05-02 01:41:23 | INFO | search_model_configurations | Search trial model=mlp lag=32 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 3, 'learning_rate': 0.0007}
+2026-05-02 01:41:27 | INFO | search_model_configurations | Search result model=mlp lag=32 final_train_mse=2.433750e-03 final_test_mse=6.082750e+01
+2026-05-02 01:41:28 | INFO | search_model_configurations | Saved search progress after 48 completed trials
+2026-05-02 01:41:28 | INFO | search_model_configurations | Prepared 24/375 mlp trials for lag=48
+2026-05-02 01:41:28 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 1, 'learning_rate': 0.1}
+2026-05-02 01:41:32 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=6.459118e-03 final_test_mse=2.647887e+01
+2026-05-02 01:41:33 | INFO | search_model_configurations | Saved search progress after 49 completed trials
+2026-05-02 01:41:33 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 2, 'learning_rate': 0.05}
+2026-05-02 01:41:36 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=3.298653e-04 final_test_mse=2.500733e+01
+2026-05-02 01:41:37 | INFO | search_model_configurations | Saved search progress after 50 completed trials
+2026-05-02 01:41:37 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 2, 'learning_rate': 0.0007}
+2026-05-02 01:41:40 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=2.183008e+00 final_test_mse=1.672711e+01
+2026-05-02 01:41:41 | INFO | search_model_configurations | Saved search progress after 51 completed trials
+2026-05-02 01:41:41 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 0, 'learning_rate': 0.001}
+2026-05-02 01:41:44 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=6.666458e+01 final_test_mse=6.564806e+01
+2026-05-02 01:41:45 | INFO | search_model_configurations | Saved search progress after 52 completed trials
+2026-05-02 01:41:45 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 3, 'learning_rate': 1e-05}
+2026-05-02 01:41:49 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=1.162710e+02 final_test_mse=1.118905e+02
+2026-05-02 01:41:53 | INFO | search_model_configurations | Saved search progress after 53 completed trials
+2026-05-02 01:41:53 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 0, 'learning_rate': 0.02}
+2026-05-02 01:41:56 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=1.073246e+01 final_test_mse=1.228423e+01
+2026-05-02 01:41:57 | INFO | search_model_configurations | Saved search progress after 54 completed trials
+2026-05-02 01:41:57 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 0, 'learning_rate': 0.0003}
+2026-05-02 01:42:00 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=9.812956e+01 final_test_mse=9.864054e+01
+2026-05-02 01:42:01 | INFO | search_model_configurations | Saved search progress after 55 completed trials
+2026-05-02 01:42:01 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 1, 'learning_rate': 0.1}
+2026-05-02 01:42:04 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=4.038448e-04 final_test_mse=1.970274e+01
+2026-05-02 01:42:05 | INFO | search_model_configurations | Saved search progress after 56 completed trials
+2026-05-02 01:42:05 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 1, 'learning_rate': 0.0007}
+2026-05-02 01:42:08 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=2.558349e+00 final_test_mse=1.408161e+01
+2026-05-02 01:42:09 | INFO | search_model_configurations | Saved search progress after 57 completed trials
+2026-05-02 01:42:09 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 1, 'learning_rate': 3e-05}
+2026-05-02 01:42:12 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=1.070947e+02 final_test_mse=1.071301e+02
+2026-05-02 01:42:13 | INFO | search_model_configurations | Saved search progress after 58 completed trials
+2026-05-02 01:42:13 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 2, 'learning_rate': 0.002}
+2026-05-02 01:42:17 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=1.054870e-12 final_test_mse=1.829449e+01
+2026-05-02 01:42:18 | INFO | search_model_configurations | Saved search progress after 59 completed trials
+2026-05-02 01:42:18 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 3, 'learning_rate': 0.0003}
+2026-05-02 01:42:21 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=2.484527e-03 final_test_mse=2.024332e+01
+2026-05-02 01:42:22 | INFO | search_model_configurations | Saved search progress after 60 completed trials
+2026-05-02 01:42:22 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 0, 'learning_rate': 0.05}
+2026-05-02 01:42:26 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=1.078982e+01 final_test_mse=1.185337e+01
+2026-05-02 01:42:26 | INFO | search_model_configurations | Saved search progress after 61 completed trials
+2026-05-02 01:42:26 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 0, 'learning_rate': 0.02}
+2026-05-02 01:42:30 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=1.078982e+01 final_test_mse=1.185338e+01
+2026-05-02 01:42:32 | INFO | search_model_configurations | Saved search progress after 62 completed trials
+2026-05-02 01:42:32 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 1, 'learning_rate': 0.005}
+2026-05-02 01:42:35 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=1.281831e-12 final_test_mse=1.823556e+01
+2026-05-02 01:42:36 | INFO | search_model_configurations | Saved search progress after 63 completed trials
+2026-05-02 01:42:36 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 1, 'learning_rate': 0.003}
+2026-05-02 01:42:40 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=1.750187e-06 final_test_mse=1.839685e+01
+2026-05-02 01:42:43 | INFO | search_model_configurations | Saved search progress after 64 completed trials
+2026-05-02 01:42:43 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 4, 'learning_rate': 0.003}
+2026-05-02 01:42:46 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=2.727246e-13 final_test_mse=1.887975e+01
+2026-05-02 01:42:47 | INFO | search_model_configurations | Saved search progress after 65 completed trials
+2026-05-02 01:42:47 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 4, 'learning_rate': 0.002}
+2026-05-02 01:42:50 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=3.002586e-13 final_test_mse=1.982310e+01
+2026-05-02 01:42:51 | INFO | search_model_configurations | Saved search progress after 66 completed trials
+2026-05-02 01:42:51 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 1, 'learning_rate': 0.2}
+2026-05-02 01:42:54 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=7.385264e-13 final_test_mse=2.075805e+01
+2026-05-02 01:42:57 | INFO | search_model_configurations | Saved search progress after 67 completed trials
+2026-05-02 01:42:57 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 1, 'learning_rate': 0.0005}
+2026-05-02 01:43:00 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=8.251969e-01 final_test_mse=1.337837e+01
+2026-05-02 01:43:01 | INFO | search_model_configurations | Saved search progress after 68 completed trials
+2026-05-02 01:43:01 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 2, 'learning_rate': 0.01}
+2026-05-02 01:43:05 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=2.668463e-13 final_test_mse=1.602224e+01
+2026-05-02 01:43:07 | INFO | search_model_configurations | Saved search progress after 69 completed trials
+2026-05-02 01:43:07 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 2, 'learning_rate': 0.0007}
+2026-05-02 01:43:10 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=1.207667e-12 final_test_mse=1.560289e+01
+2026-05-02 01:43:11 | INFO | search_model_configurations | Saved search progress after 70 completed trials
+2026-05-02 01:43:11 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 3, 'learning_rate': 0.001}
+2026-05-02 01:43:14 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=1.490967e-02 final_test_mse=1.554020e+01
+2026-05-02 01:43:15 | INFO | search_model_configurations | Saved search progress after 71 completed trials
+2026-05-02 01:43:15 | INFO | search_model_configurations | Search trial model=mlp lag=48 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 4, 'learning_rate': 0.0001}
+2026-05-02 01:43:19 | INFO | search_model_configurations | Search result model=mlp lag=48 final_train_mse=4.126057e-03 final_test_mse=1.732381e+01
+2026-05-02 01:43:20 | INFO | search_model_configurations | Saved search progress after 72 completed trials
+2026-05-02 01:43:20 | INFO | search_model_configurations | Prepared 24/375 mlp trials for lag=64
+2026-05-02 01:43:20 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 0, 'learning_rate': 0.02}
+2026-05-02 01:43:23 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=5.664271e+00 final_test_mse=6.075703e+00
+2026-05-02 01:43:24 | INFO | search_model_configurations | Saved search progress after 73 completed trials
+2026-05-02 01:43:24 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 2, 'learning_rate': 0.01}
+2026-05-02 01:43:28 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=3.214980e-12 final_test_mse=1.384899e+01
+2026-05-02 01:43:29 | INFO | search_model_configurations | Saved search progress after 74 completed trials
+2026-05-02 01:43:29 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 2, 'learning_rate': 1e-05}
+2026-05-02 01:43:32 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=7.826700e+01 final_test_mse=8.295230e+01
+2026-05-02 01:43:35 | INFO | search_model_configurations | Saved search progress after 75 completed trials
+2026-05-02 01:43:35 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 4, 'learning_rate': 0.001}
+2026-05-02 01:43:39 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=1.491128e-03 final_test_mse=1.333282e+01
+2026-05-02 01:43:39 | INFO | search_model_configurations | Saved search progress after 76 completed trials
+2026-05-02 01:43:39 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 0, 'learning_rate': 0.2}
+2026-05-02 01:43:43 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=5.320802e+00 final_test_mse=7.568062e+00
+2026-05-02 01:43:44 | INFO | search_model_configurations | Saved search progress after 77 completed trials
+2026-05-02 01:43:44 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 0, 'learning_rate': 0.05}
+2026-05-02 01:43:47 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=5.320802e+00 final_test_mse=7.568063e+00
+2026-05-02 01:43:47 | INFO | search_model_configurations | Saved search progress after 78 completed trials
+2026-05-02 01:43:47 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 0, 'learning_rate': 0.005}
+2026-05-02 01:43:51 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=7.256836e+00 final_test_mse=1.041484e+01
+2026-05-02 01:43:52 | INFO | search_model_configurations | Saved search progress after 79 completed trials
+2026-05-02 01:43:52 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 0, 'learning_rate': 0.003}
+2026-05-02 01:43:55 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=1.403410e+01 final_test_mse=1.829803e+01
+2026-05-02 01:43:56 | INFO | search_model_configurations | Saved search progress after 80 completed trials
+2026-05-02 01:43:56 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 2, 'learning_rate': 3e-05}
+2026-05-02 01:43:59 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=7.361291e+01 final_test_mse=6.465398e+01
+2026-05-02 01:44:00 | INFO | search_model_configurations | Saved search progress after 81 completed trials
+2026-05-02 01:44:00 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 4, 'learning_rate': 1e-05}
+2026-05-02 01:44:04 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=8.130772e+01 final_test_mse=6.951212e+01
+2026-05-02 01:44:05 | INFO | search_model_configurations | Saved search progress after 82 completed trials
+2026-05-02 01:44:05 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 0, 'learning_rate': 0.0003}
+2026-05-02 01:44:08 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=6.457489e+01 final_test_mse=7.144569e+01
+2026-05-02 01:44:10 | INFO | search_model_configurations | Saved search progress after 83 completed trials
+2026-05-02 01:44:10 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 1, 'learning_rate': 0.02}
+2026-05-02 01:44:13 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=2.394777e-13 final_test_mse=9.849300e+00
+2026-05-02 01:44:17 | INFO | search_model_configurations | Saved search progress after 84 completed trials
+2026-05-02 01:44:17 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 4, 'learning_rate': 0.2}
+2026-05-02 01:44:20 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=7.883212e+01 final_test_mse=8.241890e+01
+2026-05-02 01:44:21 | INFO | search_model_configurations | Saved search progress after 85 completed trials
+2026-05-02 01:44:21 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 4, 'learning_rate': 0.001}
+2026-05-02 01:44:25 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=3.095056e-08 final_test_mse=9.941504e+00
+2026-05-02 01:44:26 | INFO | search_model_configurations | Saved search progress after 86 completed trials
+2026-05-02 01:44:26 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 1, 'learning_rate': 0.1}
+2026-05-02 01:44:29 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=9.619598e-13 final_test_mse=1.148338e+01
+2026-05-02 01:44:31 | INFO | search_model_configurations | Saved search progress after 87 completed trials
+2026-05-02 01:44:31 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 1, 'learning_rate': 0.0007}
+2026-05-02 01:44:35 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=4.860007e-02 final_test_mse=1.032297e+01
+2026-05-02 01:44:35 | INFO | search_model_configurations | Saved search progress after 88 completed trials
+2026-05-02 01:44:35 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 1, 'learning_rate': 0.0001}
+2026-05-02 01:44:39 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=1.755420e+01 final_test_mse=3.091003e+01
+2026-05-02 01:44:44 | INFO | search_model_configurations | Saved search progress after 89 completed trials
+2026-05-02 01:44:44 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 3, 'learning_rate': 0.002}
+2026-05-02 01:44:47 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=2.125862e-13 final_test_mse=1.192684e+01
+2026-05-02 01:44:48 | INFO | search_model_configurations | Saved search progress after 90 completed trials
+2026-05-02 01:44:48 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 3, 'learning_rate': 0.0005}
+2026-05-02 01:44:52 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=3.869849e-13 final_test_mse=1.202565e+01
+2026-05-02 01:44:53 | INFO | search_model_configurations | Saved search progress after 91 completed trials
+2026-05-02 01:44:53 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 3, 'learning_rate': 1e-05}
+2026-05-02 01:44:57 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=5.240368e+01 final_test_mse=6.896007e+01
+2026-05-02 01:44:58 | INFO | search_model_configurations | Saved search progress after 92 completed trials
+2026-05-02 01:44:58 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 4, 'learning_rate': 0.0003}
+2026-05-02 01:45:01 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=4.534586e-06 final_test_mse=1.277055e+01
+2026-05-02 01:45:05 | INFO | search_model_configurations | Saved search progress after 93 completed trials
+2026-05-02 01:45:05 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 1, 'learning_rate': 3e-05}
+2026-05-02 01:45:08 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=5.629510e+01 final_test_mse=7.108808e+01
+2026-05-02 01:45:09 | INFO | search_model_configurations | Saved search progress after 94 completed trials
+2026-05-02 01:45:09 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 2, 'learning_rate': 0.02}
+2026-05-02 01:45:13 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=2.384633e-13 final_test_mse=8.951552e+00
+2026-05-02 01:45:13 | INFO | search_model_configurations | Saved search progress after 95 completed trials
+2026-05-02 01:45:13 | INFO | search_model_configurations | Search trial model=mlp lag=64 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 3, 'learning_rate': 0.0003}
+2026-05-02 01:45:19 | INFO | search_model_configurations | Search result model=mlp lag=64 final_train_mse=7.650956e-06 final_test_mse=1.024059e+01
+2026-05-02 01:45:20 | INFO | search_model_configurations | Saved search progress after 96 completed trials
+2026-05-02 01:45:20 | INFO | search_model_configurations | Prepared 24/375 mlp trials for lag=80
+2026-05-02 01:45:20 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 0, 'learning_rate': 0.001}
+2026-05-02 01:45:23 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=7.091142e+01 final_test_mse=8.116831e+01
+2026-05-02 01:45:24 | INFO | search_model_configurations | Saved search progress after 97 completed trials
+2026-05-02 01:45:24 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 0, 'learning_rate': 0.0001}
+2026-05-02 01:45:27 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=1.524292e+02 final_test_mse=1.723546e+02
+2026-05-02 01:45:28 | INFO | search_model_configurations | Saved search progress after 98 completed trials
+2026-05-02 01:45:28 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 2, 'learning_rate': 0.02}
+2026-05-02 01:45:32 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=4.381154e-08 final_test_mse=1.325178e+01
+2026-05-02 01:45:32 | INFO | search_model_configurations | Saved search progress after 99 completed trials
+2026-05-02 01:45:32 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 2, 'learning_rate': 0.0007}
+2026-05-02 01:45:36 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=1.084478e+00 final_test_mse=9.864983e+00
+2026-05-02 01:45:37 | INFO | search_model_configurations | Saved search progress after 100 completed trials
+2026-05-02 01:45:37 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 3, 'learning_rate': 3e-05}
+2026-05-02 01:45:41 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=1.592148e+02 final_test_mse=1.810261e+02
+2026-05-02 01:45:41 | INFO | search_model_configurations | Saved search progress after 101 completed trials
+2026-05-02 01:45:41 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 1, 'learning_rate': 0.003}
+2026-05-02 01:45:45 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=1.440559e-01 final_test_mse=9.197937e+00
+2026-05-02 01:45:46 | INFO | search_model_configurations | Saved search progress after 102 completed trials
+2026-05-02 01:45:46 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 1, 'learning_rate': 0.0005}
+2026-05-02 01:45:49 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=4.219424e+00 final_test_mse=1.063194e+01
+2026-05-02 01:45:50 | INFO | search_model_configurations | Saved search progress after 103 completed trials
+2026-05-02 01:45:50 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 2, 'learning_rate': 0.01}
+2026-05-02 01:45:53 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=1.035471e-09 final_test_mse=1.083208e+01
+2026-05-02 01:45:54 | INFO | search_model_configurations | Saved search progress after 104 completed trials
+2026-05-02 01:45:54 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 3, 'learning_rate': 0.05}
+2026-05-02 01:45:58 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=5.607858e-02 final_test_mse=8.833121e+00
+2026-05-02 01:45:59 | INFO | search_model_configurations | Saved search progress after 105 completed trials
+2026-05-02 01:45:59 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 3, 'learning_rate': 0.0007}
+2026-05-02 01:46:03 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=5.398475e-03 final_test_mse=1.223702e+01
+2026-05-02 01:46:04 | INFO | search_model_configurations | Saved search progress after 106 completed trials
+2026-05-02 01:46:04 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 3, 'learning_rate': 0.0003}
+2026-05-02 01:46:07 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=3.100767e-01 final_test_mse=1.145798e+01
+2026-05-02 01:46:08 | INFO | search_model_configurations | Saved search progress after 107 completed trials
+2026-05-02 01:46:08 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 3, 'learning_rate': 1e-05}
+2026-05-02 01:46:12 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=1.644963e+02 final_test_mse=1.908110e+02
+2026-05-02 01:46:13 | INFO | search_model_configurations | Saved search progress after 108 completed trials
+2026-05-02 01:46:13 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 4, 'learning_rate': 0.0007}
+2026-05-02 01:46:17 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=3.377371e-04 final_test_mse=1.403264e+01
+2026-05-02 01:46:17 | INFO | search_model_configurations | Saved search progress after 109 completed trials
+2026-05-02 01:46:17 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 0, 'learning_rate': 0.0003}
+2026-05-02 01:46:21 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=1.305376e+02 final_test_mse=1.409714e+02
+2026-05-02 01:46:22 | INFO | search_model_configurations | Saved search progress after 110 completed trials
+2026-05-02 01:46:22 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 3, 'learning_rate': 0.05}
+2026-05-02 01:46:25 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=4.191137e-03 final_test_mse=8.435180e+00
+2026-05-02 01:46:26 | INFO | search_model_configurations | Saved search progress after 111 completed trials
+2026-05-02 01:46:26 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 4, 'learning_rate': 0.05}
+2026-05-02 01:46:30 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=3.482427e-01 final_test_mse=8.129686e+00
+2026-05-02 01:46:30 | INFO | search_model_configurations | Saved search progress after 112 completed trials
+2026-05-02 01:46:30 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 0, 'learning_rate': 0.1}
+2026-05-02 01:46:34 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=4.631202e+00 final_test_mse=4.934595e+00
+2026-05-02 01:46:34 | INFO | search_model_configurations | Saved search progress after 113 completed trials
+2026-05-02 01:46:34 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 1, 'learning_rate': 0.2}
+2026-05-02 01:46:38 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=4.412026e-07 final_test_mse=1.989147e+01
+2026-05-02 01:46:40 | INFO | search_model_configurations | Saved search progress after 114 completed trials
+2026-05-02 01:46:40 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 2, 'learning_rate': 0.002}
+2026-05-02 01:46:43 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=2.279046e-13 final_test_mse=8.427184e+00
+2026-05-02 01:46:44 | INFO | search_model_configurations | Saved search progress after 115 completed trials
+2026-05-02 01:46:44 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 3, 'learning_rate': 0.1}
+2026-05-02 01:46:48 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=1.732143e+02 final_test_mse=1.632416e+02
+2026-05-02 01:46:50 | INFO | search_model_configurations | Saved search progress after 116 completed trials
+2026-05-02 01:46:50 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 4, 'learning_rate': 3e-05}
+2026-05-02 01:46:54 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=2.104777e+00 final_test_mse=9.737072e+00
+2026-05-02 01:47:05 | INFO | search_model_configurations | Saved search progress after 117 completed trials
+2026-05-02 01:47:05 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 4, 'learning_rate': 0.05}
+2026-05-02 01:47:08 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=2.386508e+00 final_test_mse=2.345942e+01
+2026-05-02 01:47:26 | INFO | search_model_configurations | Saved search progress after 118 completed trials
+2026-05-02 01:47:26 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 4, 'learning_rate': 0.005}
+2026-05-02 01:47:29 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=2.500039e-13 final_test_mse=8.304273e+00
+2026-05-02 01:47:30 | INFO | search_model_configurations | Saved search progress after 119 completed trials
+2026-05-02 01:47:30 | INFO | search_model_configurations | Search trial model=mlp lag=80 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 4, 'learning_rate': 0.0007}
+2026-05-02 01:47:35 | INFO | search_model_configurations | Search result model=mlp lag=80 final_train_mse=1.893802e-09 final_test_mse=1.082113e+01
+2026-05-02 01:47:37 | INFO | search_model_configurations | Saved search progress after 120 completed trials
+2026-05-02 01:47:37 | INFO | search_model_configurations | Prepared 24/375 mlp trials for lag=96
+2026-05-02 01:47:37 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 0, 'learning_rate': 0.001}
+2026-05-02 01:47:41 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=4.695046e+01 final_test_mse=4.545466e+01
+2026-05-02 01:47:42 | INFO | search_model_configurations | Saved search progress after 121 completed trials
+2026-05-02 01:47:42 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 0, 'learning_rate': 0.0005}
+2026-05-02 01:47:45 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=6.562169e+01 final_test_mse=5.886454e+01
+2026-05-02 01:47:46 | INFO | search_model_configurations | Saved search progress after 122 completed trials
+2026-05-02 01:47:46 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 2, 'learning_rate': 0.003}
+2026-05-02 01:47:50 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=1.658856e-07 final_test_mse=5.600120e+00
+2026-05-02 01:47:50 | INFO | search_model_configurations | Saved search progress after 123 completed trials
+2026-05-02 01:47:50 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 3, 'learning_rate': 0.05}
+2026-05-02 01:47:54 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=3.925395e-13 final_test_mse=4.734822e+00
+2026-05-02 01:47:55 | INFO | search_model_configurations | Saved search progress after 124 completed trials
+2026-05-02 01:47:55 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 3, 'learning_rate': 0.02}
+2026-05-02 01:47:59 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=4.196528e-13 final_test_mse=4.391571e+00
+2026-05-02 01:47:59 | INFO | search_model_configurations | Saved search progress after 125 completed trials
+2026-05-02 01:47:59 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 4, 'learning_rate': 0.001}
+2026-05-02 01:48:03 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=4.793736e-06 final_test_mse=6.368510e+00
+2026-05-02 01:48:04 | INFO | search_model_configurations | Saved search progress after 126 completed trials
+2026-05-02 01:48:04 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 0, 'learning_rate': 0.0003}
+2026-05-02 01:48:07 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=7.086407e+01 final_test_mse=7.931420e+01
+2026-05-02 01:48:08 | INFO | search_model_configurations | Saved search progress after 127 completed trials
+2026-05-02 01:48:08 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 1, 'learning_rate': 0.005}
+2026-05-02 01:48:11 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=7.268882e-12 final_test_mse=5.010696e+00
+2026-05-02 01:48:12 | INFO | search_model_configurations | Saved search progress after 128 completed trials
+2026-05-02 01:48:12 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 1, 'learning_rate': 0.003}
+2026-05-02 01:48:15 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=7.979049e-07 final_test_mse=5.407641e+00
+2026-05-02 01:48:18 | INFO | search_model_configurations | Saved search progress after 129 completed trials
+2026-05-02 01:48:18 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 1, 'learning_rate': 0.0003}
+2026-05-02 01:48:22 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=4.936333e+00 final_test_mse=1.363010e+01
+2026-05-02 01:48:23 | INFO | search_model_configurations | Saved search progress after 130 completed trials
+2026-05-02 01:48:23 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 3, 'learning_rate': 0.05}
+2026-05-02 01:48:26 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=5.515224e-08 final_test_mse=5.976891e+00
+2026-05-02 01:48:27 | INFO | search_model_configurations | Saved search progress after 131 completed trials
+2026-05-02 01:48:27 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 4, 'learning_rate': 0.002}
+2026-05-02 01:48:30 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=4.751322e-09 final_test_mse=7.105678e+00
+2026-05-02 01:48:31 | INFO | search_model_configurations | Saved search progress after 132 completed trials
+2026-05-02 01:48:31 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 3, 'learning_rate': 3e-05}
+2026-05-02 01:48:35 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=1.351225e+01 final_test_mse=2.208489e+01
+2026-05-02 01:48:36 | INFO | search_model_configurations | Saved search progress after 133 completed trials
+2026-05-02 01:48:36 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 4, 'learning_rate': 0.0001}
+2026-05-02 01:48:39 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=1.746722e-03 final_test_mse=8.281913e+00
+2026-05-02 01:48:53 | INFO | search_model_configurations | Saved search progress after 134 completed trials
+2026-05-02 01:48:53 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 0, 'learning_rate': 0.2}
+2026-05-02 01:48:56 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=1.531661e+00 final_test_mse=2.272062e+00
+2026-05-02 01:49:07 | INFO | search_model_configurations | Saved search progress after 135 completed trials
+2026-05-02 01:49:07 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 1, 'learning_rate': 0.0007}
+2026-05-02 01:49:11 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=1.370063e-04 final_test_mse=5.949106e+00
+2026-05-02 01:49:20 | INFO | search_model_configurations | Saved search progress after 136 completed trials
+2026-05-02 01:49:20 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 3, 'learning_rate': 0.1}
+2026-05-02 01:49:23 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=1.632134e+01 final_test_mse=2.656045e+01
+2026-05-02 01:49:35 | INFO | search_model_configurations | Saved search progress after 137 completed trials
+2026-05-02 01:49:35 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 4, 'learning_rate': 0.003}
+2026-05-02 01:49:39 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=1.426365e-13 final_test_mse=6.301190e+00
+2026-05-02 01:49:40 | INFO | search_model_configurations | Saved search progress after 138 completed trials
+2026-05-02 01:49:40 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 4, 'learning_rate': 1e-05}
+2026-05-02 01:49:44 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=3.171550e+01 final_test_mse=3.655360e+01
+2026-05-02 01:49:45 | INFO | search_model_configurations | Saved search progress after 139 completed trials
+2026-05-02 01:49:45 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 3, 'learning_rate': 0.2}
+2026-05-02 01:49:49 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=9.196412e+01 final_test_mse=1.653711e+02
+2026-05-02 01:49:50 | INFO | search_model_configurations | Saved search progress after 140 completed trials
+2026-05-02 01:49:50 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 3, 'learning_rate': 0.0005}
+2026-05-02 01:49:54 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=6.370402e-04 final_test_mse=6.118427e+00
+2026-05-02 01:49:55 | INFO | search_model_configurations | Saved search progress after 141 completed trials
+2026-05-02 01:49:55 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 3, 'learning_rate': 3e-05}
+2026-05-02 01:49:59 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=4.170392e-02 final_test_mse=6.638429e+00
+2026-05-02 01:49:59 | INFO | search_model_configurations | Saved search progress after 142 completed trials
+2026-05-02 01:49:59 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 4, 'learning_rate': 0.01}
+2026-05-02 01:50:03 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=2.016286e-07 final_test_mse=3.785742e+00
+2026-05-02 01:50:04 | INFO | search_model_configurations | Saved search progress after 143 completed trials
+2026-05-02 01:50:04 | INFO | search_model_configurations | Search trial model=mlp lag=96 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 4, 'learning_rate': 0.0007}
+2026-05-02 01:50:07 | INFO | search_model_configurations | Search result model=mlp lag=96 final_train_mse=2.768873e-13 final_test_mse=6.436017e+00
+2026-05-02 01:50:09 | INFO | search_model_configurations | Saved search progress after 144 completed trials
+2026-05-02 01:50:09 | INFO | search_model_configurations | Prepared 24/375 mlp trials for lag=112
+2026-05-02 01:50:09 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 1, 'learning_rate': 0.0001}
+2026-05-02 01:50:13 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=1.108825e+02 final_test_mse=1.130844e+02
+2026-05-02 01:50:13 | INFO | search_model_configurations | Saved search progress after 145 completed trials
+2026-05-02 01:50:13 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 2, 'learning_rate': 0.0007}
+2026-05-02 01:50:17 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=8.649489e-02 final_test_mse=4.281309e+00
+2026-05-02 01:50:26 | INFO | search_model_configurations | Saved search progress after 146 completed trials
+2026-05-02 01:50:26 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 3, 'learning_rate': 0.2}
+2026-05-02 01:50:29 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=1.094729e+00 final_test_mse=8.504467e+00
+2026-05-02 01:50:39 | INFO | search_model_configurations | Saved search progress after 147 completed trials
+2026-05-02 01:50:39 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 3, 'learning_rate': 0.002}
+2026-05-02 01:50:42 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=8.257437e-05 final_test_mse=3.988800e+00
+2026-05-02 01:50:59 | INFO | search_model_configurations | Saved search progress after 148 completed trials
+2026-05-02 01:50:59 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 0, 'learning_rate': 0.001}
+2026-05-02 01:51:03 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=6.755527e+01 final_test_mse=6.921627e+01
+2026-05-02 01:51:21 | INFO | search_model_configurations | Saved search progress after 149 completed trials
+2026-05-02 01:51:21 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 1, 'learning_rate': 0.005}
+2026-05-02 01:51:24 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=2.419104e-04 final_test_mse=3.367079e+00
+2026-05-02 01:51:39 | INFO | search_model_configurations | Saved search progress after 150 completed trials
+2026-05-02 01:51:39 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 2, 'learning_rate': 0.1}
+2026-05-02 01:51:43 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=1.063150e-03 final_test_mse=3.327650e+00
+2026-05-02 01:51:50 | INFO | search_model_configurations | Saved search progress after 151 completed trials
+2026-05-02 01:51:50 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 3, 'learning_rate': 3e-05}
+2026-05-02 01:51:54 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=1.168406e+02 final_test_mse=1.156256e+02
+2026-05-02 01:52:05 | INFO | search_model_configurations | Saved search progress after 152 completed trials
+2026-05-02 01:52:05 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 4, 'learning_rate': 0.01}
+2026-05-02 01:52:09 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=1.679882e-12 final_test_mse=3.770410e+00
+2026-05-02 01:52:09 | INFO | search_model_configurations | Saved search progress after 153 completed trials
+2026-05-02 01:52:09 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 2, 'learning_rate': 0.0005}
+2026-05-02 01:52:13 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=4.005107e-06 final_test_mse=6.898305e+00
+2026-05-02 01:52:14 | INFO | search_model_configurations | Saved search progress after 154 completed trials
+2026-05-02 01:52:14 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 2, 'learning_rate': 0.0003}
+2026-05-02 01:52:17 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=1.695803e-03 final_test_mse=7.310161e+00
+2026-05-02 01:52:19 | INFO | search_model_configurations | Saved search progress after 155 completed trials
+2026-05-02 01:52:19 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 2, 'learning_rate': 1e-05}
+2026-05-02 01:52:22 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=1.400199e+02 final_test_mse=1.674337e+02
+2026-05-02 01:52:23 | INFO | search_model_configurations | Saved search progress after 156 completed trials
+2026-05-02 01:52:23 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 0, 'learning_rate': 0.2}
+2026-05-02 01:52:26 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=1.008269e+00 final_test_mse=1.327293e+00
+2026-05-02 01:52:27 | INFO | search_model_configurations | Saved search progress after 157 completed trials
+2026-05-02 01:52:27 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 0, 'learning_rate': 0.1}
+2026-05-02 01:52:30 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=1.008269e+00 final_test_mse=1.327294e+00
+2026-05-02 01:52:33 | INFO | search_model_configurations | Saved search progress after 158 completed trials
+2026-05-02 01:52:33 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 0, 'learning_rate': 0.05}
+2026-05-02 01:52:37 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=1.008269e+00 final_test_mse=1.327293e+00
+2026-05-02 01:52:37 | INFO | search_model_configurations | Saved search progress after 159 completed trials
+2026-05-02 01:52:37 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 0, 'learning_rate': 1e-05}
+2026-05-02 01:52:40 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=1.470194e+02 final_test_mse=1.589516e+02
+2026-05-02 01:52:41 | INFO | search_model_configurations | Saved search progress after 160 completed trials
+2026-05-02 01:52:41 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 4, 'learning_rate': 0.01}
+2026-05-02 01:52:45 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=7.992379e-13 final_test_mse=2.746001e+00
+2026-05-02 01:52:46 | INFO | search_model_configurations | Saved search progress after 161 completed trials
+2026-05-02 01:52:46 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 4, 'learning_rate': 0.003}
+2026-05-02 01:52:49 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=2.161559e-13 final_test_mse=6.570264e+00
+2026-05-02 01:52:50 | INFO | search_model_configurations | Saved search progress after 162 completed trials
+2026-05-02 01:52:50 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 0, 'learning_rate': 0.01}
+2026-05-02 01:52:53 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=1.122895e+00 final_test_mse=1.333347e+00
+2026-05-02 01:52:54 | INFO | search_model_configurations | Saved search progress after 163 completed trials
+2026-05-02 01:52:54 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 0, 'learning_rate': 0.0001}
+2026-05-02 01:52:57 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=1.419086e+02 final_test_mse=1.294006e+02
+2026-05-02 01:52:58 | INFO | search_model_configurations | Saved search progress after 164 completed trials
+2026-05-02 01:52:58 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 1, 'learning_rate': 1e-05}
+2026-05-02 01:53:02 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=1.423136e+02 final_test_mse=1.307930e+02
+2026-05-02 01:53:03 | INFO | search_model_configurations | Saved search progress after 165 completed trials
+2026-05-02 01:53:03 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 3, 'learning_rate': 0.02}
+2026-05-02 01:53:06 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=6.050878e-13 final_test_mse=5.096332e+00
+2026-05-02 01:53:07 | INFO | search_model_configurations | Saved search progress after 166 completed trials
+2026-05-02 01:53:07 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 3, 'learning_rate': 0.002}
+2026-05-02 01:53:11 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=3.101928e-13 final_test_mse=5.024658e+00
+2026-05-02 01:53:11 | INFO | search_model_configurations | Saved search progress after 167 completed trials
+2026-05-02 01:53:11 | INFO | search_model_configurations | Search trial model=mlp lag=112 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 3, 'learning_rate': 0.001}
+2026-05-02 01:53:15 | INFO | search_model_configurations | Search result model=mlp lag=112 final_train_mse=1.585626e-02 final_test_mse=5.647860e+00
+2026-05-02 01:53:15 | INFO | search_model_configurations | Saved search progress after 168 completed trials
+2026-05-02 01:53:15 | INFO | search_model_configurations | Prepared 24/375 mlp trials for lag=128
+2026-05-02 01:53:22 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 0, 'learning_rate': 1e-05}
+2026-05-02 01:53:25 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=1.109233e+02 final_test_mse=1.195146e+02
+2026-05-02 01:53:26 | INFO | search_model_configurations | Saved search progress after 169 completed trials
+2026-05-02 01:53:26 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 1, 'learning_rate': 0.05}
+2026-05-02 01:53:29 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=1.210750e-12 final_test_mse=4.597878e+00
+2026-05-02 01:53:30 | INFO | search_model_configurations | Saved search progress after 170 completed trials
+2026-05-02 01:53:30 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 2, 'learning_rate': 0.1}
+2026-05-02 01:53:33 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=1.109615e-07 final_test_mse=3.430452e+00
+2026-05-02 01:53:34 | INFO | search_model_configurations | Saved search progress after 171 completed trials
+2026-05-02 01:53:34 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 3, 'learning_rate': 0.0007}
+2026-05-02 01:53:38 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=8.750358e-05 final_test_mse=7.856380e+00
+2026-05-02 01:53:38 | INFO | search_model_configurations | Saved search progress after 172 completed trials
+2026-05-02 01:53:38 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 3, 'learning_rate': 0.0001}
+2026-05-02 01:53:42 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=1.862743e+01 final_test_mse=4.276306e+01
+2026-05-02 01:53:43 | INFO | search_model_configurations | Saved search progress after 173 completed trials
+2026-05-02 01:53:43 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 4, 'learning_rate': 0.2}
+2026-05-02 01:53:46 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=4.775856e-01 final_test_mse=1.203149e+01
+2026-05-02 01:53:47 | INFO | search_model_configurations | Saved search progress after 174 completed trials
+2026-05-02 01:53:47 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 4, 'learning_rate': 0.003}
+2026-05-02 01:53:50 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=7.689681e-08 final_test_mse=5.231212e+00
+2026-05-02 01:53:51 | INFO | search_model_configurations | Saved search progress after 175 completed trials
+2026-05-02 01:53:51 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 4, 'learning_rate': 0.0003}
+2026-05-02 01:53:55 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=3.064588e-02 final_test_mse=1.073883e+01
+2026-05-02 01:53:55 | INFO | search_model_configurations | Saved search progress after 176 completed trials
+2026-05-02 01:53:55 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 0, 'learning_rate': 0.02}
+2026-05-02 01:53:58 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=4.158692e-01 final_test_mse=7.109519e-01
+2026-05-02 01:54:02 | INFO | search_model_configurations | Saved search progress after 177 completed trials
+2026-05-02 01:54:02 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 3, 'learning_rate': 0.0001}
+2026-05-02 01:54:06 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=4.766785e-01 final_test_mse=1.468117e+01
+2026-05-02 01:54:07 | INFO | search_model_configurations | Saved search progress after 178 completed trials
+2026-05-02 01:54:07 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 4, 'learning_rate': 0.001}
+2026-05-02 01:54:10 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=4.612734e-13 final_test_mse=9.202783e+00
+2026-05-02 01:54:11 | INFO | search_model_configurations | Saved search progress after 179 completed trials
+2026-05-02 01:54:11 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 0, 'learning_rate': 0.2}
+2026-05-02 01:54:14 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=4.273184e-01 final_test_mse=6.702791e-01
+2026-05-02 01:54:16 | INFO | search_model_configurations | Saved search progress after 180 completed trials
+2026-05-02 01:54:16 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 1, 'learning_rate': 0.0007}
+2026-05-02 01:54:20 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=3.726146e-03 final_test_mse=8.822336e+00
+2026-05-02 01:54:24 | INFO | search_model_configurations | Saved search progress after 181 completed trials
+2026-05-02 01:54:24 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 3, 'learning_rate': 0.005}
+2026-05-02 01:54:28 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=5.035119e-13 final_test_mse=7.236182e+00
+2026-05-02 01:54:28 | INFO | search_model_configurations | Saved search progress after 182 completed trials
+2026-05-02 01:54:28 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 3, 'learning_rate': 1e-05}
+2026-05-02 01:54:32 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=1.070261e+02 final_test_mse=1.217638e+02
+2026-05-02 01:54:33 | INFO | search_model_configurations | Saved search progress after 183 completed trials
+2026-05-02 01:54:33 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 4, 'learning_rate': 0.002}
+2026-05-02 01:54:36 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=2.901201e-10 final_test_mse=7.796886e+00
+2026-05-02 01:54:37 | INFO | search_model_configurations | Saved search progress after 184 completed trials
+2026-05-02 01:54:37 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 4, 'learning_rate': 0.001}
+2026-05-02 01:54:41 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=1.872076e-09 final_test_mse=8.927783e+00
+2026-05-02 01:54:42 | INFO | search_model_configurations | Saved search progress after 185 completed trials
+2026-05-02 01:54:42 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 1, 'learning_rate': 0.0001}
+2026-05-02 01:54:45 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=1.718944e+01 final_test_mse=3.842615e+01
+2026-05-02 01:54:46 | INFO | search_model_configurations | Saved search progress after 186 completed trials
+2026-05-02 01:54:46 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 4, 'learning_rate': 0.0003}
+2026-05-02 01:54:50 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=8.389483e-07 final_test_mse=1.024710e+01
+2026-05-02 01:55:11 | INFO | search_model_configurations | Saved search progress after 187 completed trials
+2026-05-02 01:55:11 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 4, 'learning_rate': 3e-05}
+2026-05-02 01:55:16 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=5.517233e-02 final_test_mse=1.239746e+01
+2026-05-02 01:55:17 | INFO | search_model_configurations | Saved search progress after 188 completed trials
+2026-05-02 01:55:17 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 0, 'learning_rate': 0.0005}
+2026-05-02 01:55:20 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=7.641672e+01 final_test_mse=8.837763e+01
+2026-05-02 01:55:21 | INFO | search_model_configurations | Saved search progress after 189 completed trials
+2026-05-02 01:55:21 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 1, 'learning_rate': 0.01}
+2026-05-02 01:55:24 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=3.922751e-13 final_test_mse=3.331690e+00
+2026-05-02 01:55:25 | INFO | search_model_configurations | Saved search progress after 190 completed trials
+2026-05-02 01:55:25 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 3, 'learning_rate': 0.05}
+2026-05-02 01:55:28 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=1.402991e-01 final_test_mse=1.550456e+01
+2026-05-02 01:55:29 | INFO | search_model_configurations | Saved search progress after 191 completed trials
+2026-05-02 01:55:29 | INFO | search_model_configurations | Search trial model=mlp lag=128 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 4, 'learning_rate': 0.002}
+2026-05-02 01:55:33 | INFO | search_model_configurations | Search result model=mlp lag=128 final_train_mse=2.434162e-13 final_test_mse=5.269305e+00
+2026-05-02 01:55:36 | INFO | search_model_configurations | Saved search progress after 192 completed trials
+2026-05-02 01:55:36 | INFO | search_model_configurations | Prepared 24/375 mlp trials for lag=160
+2026-05-02 01:55:36 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 2, 'learning_rate': 0.05}
+2026-05-02 01:55:39 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=1.093395e-12 final_test_mse=4.570166e+00
+2026-05-02 01:55:41 | INFO | search_model_configurations | Saved search progress after 193 completed trials
+2026-05-02 01:55:41 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 2, 'learning_rate': 0.0007}
+2026-05-02 01:55:45 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=2.797507e-05 final_test_mse=1.417896e+01
+2026-05-02 01:55:46 | INFO | search_model_configurations | Saved search progress after 194 completed trials
+2026-05-02 01:55:46 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 32, 'num_hidden_layers': 3, 'learning_rate': 0.0003}
+2026-05-02 01:55:49 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=2.539087e-03 final_test_mse=1.405643e+01
+2026-05-02 01:55:50 | INFO | search_model_configurations | Saved search progress after 195 completed trials
+2026-05-02 01:55:50 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 0, 'learning_rate': 0.05}
+2026-05-02 01:55:53 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=1.029637e-01 final_test_mse=1.932403e-01
+2026-05-02 01:55:54 | INFO | search_model_configurations | Saved search progress after 196 completed trials
+2026-05-02 01:55:54 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 0, 'learning_rate': 0.005}
+2026-05-02 01:55:57 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=3.067612e+00 final_test_mse=4.625536e+00
+2026-05-02 01:55:58 | INFO | search_model_configurations | Saved search progress after 197 completed trials
+2026-05-02 01:55:58 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 0, 'learning_rate': 0.0007}
+2026-05-02 01:56:02 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=5.299631e+01 final_test_mse=5.639413e+01
+2026-05-02 01:56:02 | INFO | search_model_configurations | Saved search progress after 198 completed trials
+2026-05-02 01:56:02 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 1, 'learning_rate': 0.2}
+2026-05-02 01:56:05 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=6.766637e-13 final_test_mse=5.409317e+00
+2026-05-02 01:56:06 | INFO | search_model_configurations | Saved search progress after 199 completed trials
+2026-05-02 01:56:06 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 1, 'learning_rate': 0.02}
+2026-05-02 01:56:09 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=2.599931e-13 final_test_mse=5.603150e+00
+2026-05-02 01:56:14 | INFO | search_model_configurations | Saved search progress after 200 completed trials
+2026-05-02 01:56:14 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 64, 'num_hidden_layers': 2, 'learning_rate': 0.2}
+2026-05-02 01:56:18 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=1.876802e+00 final_test_mse=2.639294e+01
+2026-05-02 01:56:19 | INFO | search_model_configurations | Saved search progress after 201 completed trials
+2026-05-02 01:56:19 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 0, 'learning_rate': 0.1}
+2026-05-02 01:56:22 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=1.102755e-01 final_test_mse=1.564512e-01
+2026-05-02 01:56:24 | INFO | search_model_configurations | Saved search progress after 202 completed trials
+2026-05-02 01:56:24 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 0, 'learning_rate': 0.02}
+2026-05-02 01:56:27 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=1.102755e-01 final_test_mse=1.564515e-01
+2026-05-02 01:56:32 | INFO | search_model_configurations | Saved search progress after 203 completed trials
+2026-05-02 01:56:32 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 0, 'learning_rate': 0.001}
+2026-05-02 01:56:35 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=3.958445e+01 final_test_mse=5.634671e+01
+2026-05-02 01:56:36 | INFO | search_model_configurations | Saved search progress after 204 completed trials
+2026-05-02 01:56:36 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 1, 'learning_rate': 0.01}
+2026-05-02 01:56:39 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=2.376648e-13 final_test_mse=8.063309e+00
+2026-05-02 01:56:40 | INFO | search_model_configurations | Saved search progress after 205 completed trials
+2026-05-02 01:56:40 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 1, 'learning_rate': 3e-05}
+2026-05-02 01:56:43 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=7.807255e+01 final_test_mse=9.410053e+01
+2026-05-02 01:56:46 | INFO | search_model_configurations | Saved search progress after 206 completed trials
+2026-05-02 01:56:46 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 1, 'learning_rate': 1e-05}
+2026-05-02 01:56:49 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=8.887890e+01 final_test_mse=1.007047e+02
+2026-05-02 01:56:50 | INFO | search_model_configurations | Saved search progress after 207 completed trials
+2026-05-02 01:56:50 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 2, 'learning_rate': 0.0001}
+2026-05-02 01:56:54 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=8.054834e-02 final_test_mse=1.705996e+01
+2026-05-02 01:56:57 | INFO | search_model_configurations | Saved search progress after 208 completed trials
+2026-05-02 01:56:57 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 128, 'num_hidden_layers': 4, 'learning_rate': 0.05}
+2026-05-02 01:57:00 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=5.534144e-13 final_test_mse=8.865297e+00
+2026-05-02 01:57:01 | INFO | search_model_configurations | Saved search progress after 209 completed trials
+2026-05-02 01:57:01 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 0, 'learning_rate': 0.002}
+2026-05-02 01:57:04 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=2.090137e+01 final_test_mse=3.278080e+01
+2026-05-02 01:57:05 | INFO | search_model_configurations | Saved search progress after 210 completed trials
+2026-05-02 01:57:05 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 0, 'learning_rate': 0.0005}
+2026-05-02 01:57:08 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=5.823856e+01 final_test_mse=8.030780e+01
+2026-05-02 01:57:09 | INFO | search_model_configurations | Saved search progress after 211 completed trials
+2026-05-02 01:57:09 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 3, 'learning_rate': 0.0005}
+2026-05-02 01:57:13 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=1.446436e-13 final_test_mse=1.316480e+01
+2026-05-02 01:57:14 | INFO | search_model_configurations | Saved search progress after 212 completed trials
+2026-05-02 01:57:14 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 256, 'num_hidden_layers': 4, 'learning_rate': 0.003}
+2026-05-02 01:57:17 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=1.231164e-13 final_test_mse=9.191888e+00
+2026-05-02 01:57:18 | INFO | search_model_configurations | Saved search progress after 213 completed trials
+2026-05-02 01:57:18 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 0, 'learning_rate': 0.05}
+2026-05-02 01:57:21 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=1.109524e-01 final_test_mse=1.547413e-01
+2026-05-02 01:57:24 | INFO | search_model_configurations | Saved search progress after 214 completed trials
+2026-05-02 01:57:24 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 0, 'learning_rate': 0.0003}
+2026-05-02 01:57:27 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=7.200689e+01 final_test_mse=6.849280e+01
+2026-05-02 01:57:28 | INFO | search_model_configurations | Saved search progress after 215 completed trials
+2026-05-02 01:57:28 | INFO | search_model_configurations | Search trial model=mlp lag=160 config={'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 0, 'learning_rate': 0.0001}
+2026-05-02 01:57:31 | INFO | search_model_configurations | Search result model=mlp lag=160 final_train_mse=8.682110e+01 final_test_mse=7.978912e+01
+2026-05-02 01:57:32 | INFO | search_model_configurations | Saved search progress after 216 completed trials
+2026-05-02 01:57:32 | INFO | search_model_configurations | Prepared 10/270 lstm trials for lag=16
+2026-05-02 01:57:32 | INFO | search_model_configurations | Search trial model=lstm lag=16 config={'model_type': 'lstm', 'hidden': 16, 'num_layers': 2, 'learning_rate': 0.02}
+2026-05-02 01:57:36 | INFO | search_model_configurations | Search result model=lstm lag=16 final_train_mse=2.356440e+00 final_test_mse=6.570058e+01
+2026-05-02 01:57:37 | INFO | search_model_configurations | Saved search progress after 217 completed trials
+2026-05-02 01:57:37 | INFO | search_model_configurations | Search trial model=lstm lag=16 config={'model_type': 'lstm', 'hidden': 32, 'num_layers': 1, 'learning_rate': 0.1}
+2026-05-02 01:57:40 | INFO | search_model_configurations | Search result model=lstm lag=16 final_train_mse=7.172635e+01 final_test_mse=1.036102e+02
+2026-05-02 01:57:46 | INFO | search_model_configurations | Saved search progress after 218 completed trials
+2026-05-02 01:57:46 | INFO | search_model_configurations | Search trial model=lstm lag=16 config={'model_type': 'lstm', 'hidden': 32, 'num_layers': 1, 'learning_rate': 0.005}
+2026-05-02 01:57:49 | INFO | search_model_configurations | Search result model=lstm lag=16 final_train_mse=1.037991e+01 final_test_mse=6.997103e+01
+2026-05-02 01:57:51 | INFO | search_model_configurations | Saved search progress after 219 completed trials
+2026-05-02 01:57:51 | INFO | search_model_configurations | Search trial model=lstm lag=16 config={'model_type': 'lstm', 'hidden': 32, 'num_layers': 3, 'learning_rate': 0.002}
+2026-05-02 01:57:54 | INFO | search_model_configurations | Search result model=lstm lag=16 final_train_mse=6.611234e+00 final_test_mse=6.874902e+01
+2026-05-02 01:57:58 | INFO | search_model_configurations | Saved search progress after 220 completed trials
+2026-05-02 01:57:58 | INFO | search_model_configurations | Search trial model=lstm lag=16 config={'model_type': 'lstm', 'hidden': 48, 'num_layers': 1, 'learning_rate': 0.001}
+2026-05-02 01:58:02 | INFO | search_model_configurations | Search result model=lstm lag=16 final_train_mse=1.791621e+01 final_test_mse=6.277866e+01
+2026-05-02 01:58:03 | INFO | search_model_configurations | Saved search progress after 221 completed trials
+2026-05-02 01:58:03 | INFO | search_model_configurations | Search trial model=lstm lag=16 config={'model_type': 'lstm', 'hidden': 96, 'num_layers': 2, 'learning_rate': 0.0007}
+2026-05-02 01:58:07 | INFO | search_model_configurations | Search result model=lstm lag=16 final_train_mse=4.393611e+00 final_test_mse=4.484382e+01
+2026-05-02 01:58:08 | INFO | search_model_configurations | Saved search progress after 222 completed trials
+2026-05-02 01:58:08 | INFO | search_model_configurations | Search trial model=lstm lag=16 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 3, 'learning_rate': 0.2}
+2026-05-02 01:58:13 | INFO | search_model_configurations | Search result model=lstm lag=16 final_train_mse=1.156677e+02 final_test_mse=1.179121e+02
+2026-05-02 01:58:14 | INFO | search_model_configurations | Saved search progress after 223 completed trials
+2026-05-02 01:58:14 | INFO | search_model_configurations | Search trial model=lstm lag=16 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 3, 'learning_rate': 0.05}
+2026-05-02 01:58:20 | INFO | search_model_configurations | Search result model=lstm lag=16 final_train_mse=1.156677e+02 final_test_mse=1.179046e+02
+2026-05-02 01:58:21 | INFO | search_model_configurations | Saved search progress after 224 completed trials
+2026-05-02 01:58:21 | INFO | search_model_configurations | Search trial model=lstm lag=16 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 3, 'learning_rate': 0.01}
+2026-05-02 01:58:27 | INFO | search_model_configurations | Search result model=lstm lag=16 final_train_mse=1.894634e-02 final_test_mse=3.342900e+01
+2026-05-02 01:58:28 | INFO | search_model_configurations | Saved search progress after 225 completed trials
+2026-05-02 01:58:28 | INFO | search_model_configurations | Search trial model=lstm lag=16 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 3, 'learning_rate': 0.003}
+2026-05-02 01:58:34 | INFO | search_model_configurations | Search result model=lstm lag=16 final_train_mse=3.541576e-03 final_test_mse=4.877718e+01
+2026-05-02 01:58:35 | INFO | search_model_configurations | Saved search progress after 226 completed trials
+2026-05-02 01:58:35 | INFO | search_model_configurations | Prepared 10/270 lstm trials for lag=32
+2026-05-02 01:58:35 | INFO | search_model_configurations | Search trial model=lstm lag=32 config={'model_type': 'lstm', 'hidden': 16, 'num_layers': 1, 'learning_rate': 0.2}
+2026-05-02 01:58:39 | INFO | search_model_configurations | Search result model=lstm lag=32 final_train_mse=1.284828e+02 final_test_mse=1.383863e+02
+2026-05-02 01:58:39 | INFO | search_model_configurations | Saved search progress after 227 completed trials
+2026-05-02 01:58:39 | INFO | search_model_configurations | Search trial model=lstm lag=32 config={'model_type': 'lstm', 'hidden': 16, 'num_layers': 2, 'learning_rate': 0.0007}
+2026-05-02 01:58:43 | INFO | search_model_configurations | Search result model=lstm lag=32 final_train_mse=5.111066e+01 final_test_mse=6.140419e+01
+2026-05-02 01:58:44 | INFO | search_model_configurations | Saved search progress after 228 completed trials
+2026-05-02 01:58:44 | INFO | search_model_configurations | Search trial model=lstm lag=32 config={'model_type': 'lstm', 'hidden': 32, 'num_layers': 2, 'learning_rate': 0.01}
+2026-05-02 01:58:47 | INFO | search_model_configurations | Search result model=lstm lag=32 final_train_mse=3.648296e+00 final_test_mse=1.916510e+01
+2026-05-02 01:58:49 | INFO | search_model_configurations | Saved search progress after 229 completed trials
+2026-05-02 01:58:49 | INFO | search_model_configurations | Search trial model=lstm lag=32 config={'model_type': 'lstm', 'hidden': 48, 'num_layers': 3, 'learning_rate': 0.002}
+2026-05-02 01:58:53 | INFO | search_model_configurations | Search result model=lstm lag=32 final_train_mse=6.351947e+00 final_test_mse=3.720377e+01
+2026-05-02 01:58:54 | INFO | search_model_configurations | Saved search progress after 230 completed trials
+2026-05-02 01:58:54 | INFO | search_model_configurations | Search trial model=lstm lag=32 config={'model_type': 'lstm', 'hidden': 64, 'num_layers': 2, 'learning_rate': 0.003}
+2026-05-02 01:58:58 | INFO | search_model_configurations | Search result model=lstm lag=32 final_train_mse=1.810141e+00 final_test_mse=2.763577e+01
+2026-05-02 01:58:58 | INFO | search_model_configurations | Saved search progress after 231 completed trials
+2026-05-02 01:58:58 | INFO | search_model_configurations | Search trial model=lstm lag=32 config={'model_type': 'lstm', 'hidden': 64, 'num_layers': 3, 'learning_rate': 0.02}
+2026-05-02 01:59:03 | INFO | search_model_configurations | Search result model=lstm lag=32 final_train_mse=5.072014e-03 final_test_mse=1.145087e+01
+2026-05-02 01:59:03 | INFO | search_model_configurations | Saved search progress after 232 completed trials
+2026-05-02 01:59:03 | INFO | search_model_configurations | Search trial model=lstm lag=32 config={'model_type': 'lstm', 'hidden': 96, 'num_layers': 1, 'learning_rate': 0.005}
+2026-05-02 01:59:07 | INFO | search_model_configurations | Search result model=lstm lag=32 final_train_mse=7.523142e-01 final_test_mse=9.457735e+00
+2026-05-02 01:59:08 | INFO | search_model_configurations | Saved search progress after 233 completed trials
+2026-05-02 01:59:08 | INFO | search_model_configurations | Search trial model=lstm lag=32 config={'model_type': 'lstm', 'hidden': 96, 'num_layers': 3, 'learning_rate': 0.05}
+2026-05-02 01:59:14 | INFO | search_model_configurations | Search result model=lstm lag=32 final_train_mse=2.992792e+01 final_test_mse=2.155673e+02
+2026-05-02 01:59:14 | INFO | search_model_configurations | Saved search progress after 234 completed trials
+2026-05-02 01:59:14 | INFO | search_model_configurations | Search trial model=lstm lag=32 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 1, 'learning_rate': 0.001}
+2026-05-02 01:59:19 | INFO | search_model_configurations | Search result model=lstm lag=32 final_train_mse=3.775385e+00 final_test_mse=1.480848e+01
+2026-05-02 01:59:20 | INFO | search_model_configurations | Saved search progress after 235 completed trials
+2026-05-02 01:59:20 | INFO | search_model_configurations | Search trial model=lstm lag=32 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 3, 'learning_rate': 0.1}
+2026-05-02 01:59:27 | INFO | search_model_configurations | Search result model=lstm lag=32 final_train_mse=1.458041e+02 final_test_mse=1.438462e+02
+2026-05-02 01:59:29 | INFO | search_model_configurations | Saved search progress after 236 completed trials
+2026-05-02 01:59:29 | INFO | search_model_configurations | Prepared 10/270 lstm trials for lag=48
+2026-05-02 01:59:30 | INFO | search_model_configurations | Search trial model=lstm lag=48 config={'model_type': 'lstm', 'hidden': 16, 'num_layers': 2, 'learning_rate': 0.002}
+2026-05-02 01:59:34 | INFO | search_model_configurations | Search result model=lstm lag=48 final_train_mse=1.217668e+01 final_test_mse=1.477420e+01
+2026-05-02 01:59:36 | INFO | search_model_configurations | Saved search progress after 237 completed trials
+2026-05-02 01:59:36 | INFO | search_model_configurations | Search trial model=lstm lag=48 config={'model_type': 'lstm', 'hidden': 32, 'num_layers': 2, 'learning_rate': 0.01}
+2026-05-02 01:59:40 | INFO | search_model_configurations | Search result model=lstm lag=48 final_train_mse=3.402334e+00 final_test_mse=6.827723e+00
+2026-05-02 01:59:41 | INFO | search_model_configurations | Saved search progress after 238 completed trials
+2026-05-02 01:59:41 | INFO | search_model_configurations | Search trial model=lstm lag=48 config={'model_type': 'lstm', 'hidden': 32, 'num_layers': 2, 'learning_rate': 0.001}
+2026-05-02 01:59:45 | INFO | search_model_configurations | Search result model=lstm lag=48 final_train_mse=1.062459e+01 final_test_mse=1.641968e+01
+2026-05-02 01:59:46 | INFO | search_model_configurations | Saved search progress after 239 completed trials
+2026-05-02 01:59:46 | INFO | search_model_configurations | Search trial model=lstm lag=48 config={'model_type': 'lstm', 'hidden': 48, 'num_layers': 1, 'learning_rate': 0.02}
+2026-05-02 01:59:50 | INFO | search_model_configurations | Search result model=lstm lag=48 final_train_mse=1.099442e+02 final_test_mse=1.140710e+02
+2026-05-02 01:59:51 | INFO | search_model_configurations | Saved search progress after 240 completed trials
+2026-05-02 01:59:51 | INFO | search_model_configurations | Search trial model=lstm lag=48 config={'model_type': 'lstm', 'hidden': 48, 'num_layers': 3, 'learning_rate': 0.2}
+2026-05-02 01:59:56 | INFO | search_model_configurations | Search result model=lstm lag=48 final_train_mse=1.162080e+02 final_test_mse=1.179657e+02
+2026-05-02 01:59:57 | INFO | search_model_configurations | Saved search progress after 241 completed trials
+2026-05-02 01:59:57 | INFO | search_model_configurations | Search trial model=lstm lag=48 config={'model_type': 'lstm', 'hidden': 64, 'num_layers': 1, 'learning_rate': 0.0007}
+2026-05-02 02:00:01 | INFO | search_model_configurations | Search result model=lstm lag=48 final_train_mse=1.225658e+01 final_test_mse=1.506948e+01
+2026-05-02 02:00:02 | INFO | search_model_configurations | Saved search progress after 242 completed trials
+2026-05-02 02:00:02 | INFO | search_model_configurations | Search trial model=lstm lag=48 config={'model_type': 'lstm', 'hidden': 64, 'num_layers': 3, 'learning_rate': 0.003}
+2026-05-02 02:00:06 | INFO | search_model_configurations | Search result model=lstm lag=48 final_train_mse=1.709817e+00 final_test_mse=7.889326e+00
+2026-05-02 02:00:07 | INFO | search_model_configurations | Saved search progress after 243 completed trials
+2026-05-02 02:00:07 | INFO | search_model_configurations | Search trial model=lstm lag=48 config={'model_type': 'lstm', 'hidden': 96, 'num_layers': 1, 'learning_rate': 0.005}
+2026-05-02 02:00:11 | INFO | search_model_configurations | Search result model=lstm lag=48 final_train_mse=9.788409e+00 final_test_mse=8.216338e+00
+2026-05-02 02:00:12 | INFO | search_model_configurations | Saved search progress after 244 completed trials
+2026-05-02 02:00:12 | INFO | search_model_configurations | Search trial model=lstm lag=48 config={'model_type': 'lstm', 'hidden': 96, 'num_layers': 2, 'learning_rate': 0.05}
+2026-05-02 02:00:17 | INFO | search_model_configurations | Search result model=lstm lag=48 final_train_mse=1.137903e+02 final_test_mse=9.997835e+01
+2026-05-02 02:00:18 | INFO | search_model_configurations | Saved search progress after 245 completed trials
+2026-05-02 02:00:18 | INFO | search_model_configurations | Search trial model=lstm lag=48 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 2, 'learning_rate': 0.1}
+2026-05-02 02:00:25 | INFO | search_model_configurations | Search result model=lstm lag=48 final_train_mse=1.170090e+02 final_test_mse=1.148192e+02
+2026-05-02 02:00:26 | INFO | search_model_configurations | Saved search progress after 246 completed trials
+2026-05-02 02:00:26 | INFO | search_model_configurations | Prepared 10/270 lstm trials for lag=64
+2026-05-02 02:00:27 | INFO | search_model_configurations | Search trial model=lstm lag=64 config={'model_type': 'lstm', 'hidden': 16, 'num_layers': 1, 'learning_rate': 0.002}
+2026-05-02 02:00:30 | INFO | search_model_configurations | Search result model=lstm lag=64 final_train_mse=2.117085e+01 final_test_mse=2.673292e+01
+2026-05-02 02:00:31 | INFO | search_model_configurations | Saved search progress after 247 completed trials
+2026-05-02 02:00:31 | INFO | search_model_configurations | Search trial model=lstm lag=64 config={'model_type': 'lstm', 'hidden': 16, 'num_layers': 2, 'learning_rate': 0.0007}
+2026-05-02 02:00:35 | INFO | search_model_configurations | Search result model=lstm lag=64 final_train_mse=2.249819e+01 final_test_mse=2.306033e+01
+2026-05-02 02:00:36 | INFO | search_model_configurations | Saved search progress after 248 completed trials
+2026-05-02 02:00:36 | INFO | search_model_configurations | Search trial model=lstm lag=64 config={'model_type': 'lstm', 'hidden': 16, 'num_layers': 3, 'learning_rate': 0.2}
+2026-05-02 02:00:40 | INFO | search_model_configurations | Search result model=lstm lag=64 final_train_mse=7.858032e+01 final_test_mse=8.335290e+01
+2026-05-02 02:00:41 | INFO | search_model_configurations | Saved search progress after 249 completed trials
+2026-05-02 02:00:41 | INFO | search_model_configurations | Search trial model=lstm lag=64 config={'model_type': 'lstm', 'hidden': 32, 'num_layers': 1, 'learning_rate': 0.02}
+2026-05-02 02:00:45 | INFO | search_model_configurations | Search result model=lstm lag=64 final_train_mse=7.784975e+01 final_test_mse=8.360137e+01
+2026-05-02 02:00:46 | INFO | search_model_configurations | Saved search progress after 250 completed trials
+2026-05-02 02:00:46 | INFO | search_model_configurations | Search trial model=lstm lag=64 config={'model_type': 'lstm', 'hidden': 32, 'num_layers': 3, 'learning_rate': 0.05}
+2026-05-02 02:00:50 | INFO | search_model_configurations | Search result model=lstm lag=64 final_train_mse=7.858059e+01 final_test_mse=8.353148e+01
+2026-05-02 02:00:51 | INFO | search_model_configurations | Saved search progress after 251 completed trials
+2026-05-02 02:00:51 | INFO | search_model_configurations | Search trial model=lstm lag=64 config={'model_type': 'lstm', 'hidden': 32, 'num_layers': 3, 'learning_rate': 0.003}
+2026-05-02 02:00:55 | INFO | search_model_configurations | Search result model=lstm lag=64 final_train_mse=5.613125e+00 final_test_mse=1.175426e+01
+2026-05-02 02:00:56 | INFO | search_model_configurations | Saved search progress after 252 completed trials
+2026-05-02 02:00:56 | INFO | search_model_configurations | Search trial model=lstm lag=64 config={'model_type': 'lstm', 'hidden': 48, 'num_layers': 1, 'learning_rate': 0.1}
+2026-05-02 02:01:00 | INFO | search_model_configurations | Search result model=lstm lag=64 final_train_mse=7.594973e+01 final_test_mse=8.570069e+01
+2026-05-02 02:01:02 | INFO | search_model_configurations | Saved search progress after 253 completed trials
+2026-05-02 02:01:02 | INFO | search_model_configurations | Search trial model=lstm lag=64 config={'model_type': 'lstm', 'hidden': 48, 'num_layers': 3, 'learning_rate': 0.005}
+2026-05-02 02:01:07 | INFO | search_model_configurations | Search result model=lstm lag=64 final_train_mse=2.897083e+00 final_test_mse=7.049273e+00
+2026-05-02 02:01:08 | INFO | search_model_configurations | Saved search progress after 254 completed trials
+2026-05-02 02:01:08 | INFO | search_model_configurations | Search trial model=lstm lag=64 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 1, 'learning_rate': 0.01}
+2026-05-02 02:01:14 | INFO | search_model_configurations | Search result model=lstm lag=64 final_train_mse=2.854477e-01 final_test_mse=5.903295e+00
+2026-05-02 02:01:15 | INFO | search_model_configurations | Saved search progress after 255 completed trials
+2026-05-02 02:01:15 | INFO | search_model_configurations | Search trial model=lstm lag=64 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 2, 'learning_rate': 0.001}
+2026-05-02 02:01:24 | INFO | search_model_configurations | Search result model=lstm lag=64 final_train_mse=5.128658e+00 final_test_mse=5.914843e+00
+2026-05-02 02:01:24 | INFO | search_model_configurations | Saved search progress after 256 completed trials
+2026-05-02 02:01:24 | INFO | search_model_configurations | Prepared 10/270 lstm trials for lag=80
+2026-05-02 02:01:25 | INFO | search_model_configurations | Search trial model=lstm lag=80 config={'model_type': 'lstm', 'hidden': 16, 'num_layers': 2, 'learning_rate': 0.05}
+2026-05-02 02:01:29 | INFO | search_model_configurations | Search result model=lstm lag=80 final_train_mse=1.481868e+02 final_test_mse=1.552353e+02
+2026-05-02 02:01:30 | INFO | search_model_configurations | Saved search progress after 257 completed trials
+2026-05-02 02:01:30 | INFO | search_model_configurations | Search trial model=lstm lag=80 config={'model_type': 'lstm', 'hidden': 48, 'num_layers': 1, 'learning_rate': 0.001}
+2026-05-02 02:01:34 | INFO | search_model_configurations | Search result model=lstm lag=80 final_train_mse=2.130697e+01 final_test_mse=2.269547e+01
+2026-05-02 02:01:37 | INFO | search_model_configurations | Saved search progress after 258 completed trials
+2026-05-02 02:01:37 | INFO | search_model_configurations | Search trial model=lstm lag=80 config={'model_type': 'lstm', 'hidden': 48, 'num_layers': 2, 'learning_rate': 0.02}
+2026-05-02 02:01:42 | INFO | search_model_configurations | Search result model=lstm lag=80 final_train_mse=1.522275e+02 final_test_mse=1.527636e+02
+2026-05-02 02:01:43 | INFO | search_model_configurations | Saved search progress after 259 completed trials
+2026-05-02 02:01:43 | INFO | search_model_configurations | Search trial model=lstm lag=80 config={'model_type': 'lstm', 'hidden': 64, 'num_layers': 2, 'learning_rate': 0.0007}
+2026-05-02 02:01:48 | INFO | search_model_configurations | Search result model=lstm lag=80 final_train_mse=1.273251e+01 final_test_mse=2.233345e+01
+2026-05-02 02:01:49 | INFO | search_model_configurations | Saved search progress after 260 completed trials
+2026-05-02 02:01:49 | INFO | search_model_configurations | Search trial model=lstm lag=80 config={'model_type': 'lstm', 'hidden': 64, 'num_layers': 3, 'learning_rate': 0.2}
+2026-05-02 02:01:55 | INFO | search_model_configurations | Search result model=lstm lag=80 final_train_mse=1.664965e+02 final_test_mse=1.931494e+02
+2026-05-02 02:01:56 | INFO | search_model_configurations | Saved search progress after 261 completed trials
+2026-05-02 02:01:56 | INFO | search_model_configurations | Search trial model=lstm lag=80 config={'model_type': 'lstm', 'hidden': 96, 'num_layers': 1, 'learning_rate': 0.005}
+2026-05-02 02:02:01 | INFO | search_model_configurations | Search result model=lstm lag=80 final_train_mse=7.178401e+01 final_test_mse=6.793512e+01
+2026-05-02 02:02:01 | INFO | search_model_configurations | Saved search progress after 262 completed trials
+2026-05-02 02:02:01 | INFO | search_model_configurations | Search trial model=lstm lag=80 config={'model_type': 'lstm', 'hidden': 96, 'num_layers': 3, 'learning_rate': 0.002}
+2026-05-02 02:02:09 | INFO | search_model_configurations | Search result model=lstm lag=80 final_train_mse=1.219430e+01 final_test_mse=1.771734e+01
+2026-05-02 02:02:14 | INFO | search_model_configurations | Saved search progress after 263 completed trials
+2026-05-02 02:02:14 | INFO | search_model_configurations | Search trial model=lstm lag=80 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 1, 'learning_rate': 0.01}
+2026-05-02 02:02:20 | INFO | search_model_configurations | Search result model=lstm lag=80 final_train_mse=1.621821e+02 final_test_mse=1.714803e+02
+2026-05-02 02:02:21 | INFO | search_model_configurations | Saved search progress after 264 completed trials
+2026-05-02 02:02:21 | INFO | search_model_configurations | Search trial model=lstm lag=80 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 2, 'learning_rate': 0.1}
+2026-05-02 02:02:31 | INFO | search_model_configurations | Search result model=lstm lag=80 final_train_mse=8.012006e+01 final_test_mse=2.057562e+02
+2026-05-02 02:02:32 | INFO | search_model_configurations | Saved search progress after 265 completed trials
+2026-05-02 02:02:32 | INFO | search_model_configurations | Search trial model=lstm lag=80 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 2, 'learning_rate': 0.003}
+2026-05-02 02:02:42 | INFO | search_model_configurations | Search result model=lstm lag=80 final_train_mse=1.614500e+01 final_test_mse=2.096075e+01
+2026-05-02 02:02:43 | INFO | search_model_configurations | Saved search progress after 266 completed trials
+2026-05-02 02:02:43 | INFO | search_model_configurations | Prepared 10/270 lstm trials for lag=96
+2026-05-02 02:02:43 | INFO | search_model_configurations | Search trial model=lstm lag=96 config={'model_type': 'lstm', 'hidden': 16, 'num_layers': 2, 'learning_rate': 0.0007}
+2026-05-02 02:02:48 | INFO | search_model_configurations | Search result model=lstm lag=96 final_train_mse=6.220315e+01 final_test_mse=6.756216e+01
+2026-05-02 02:02:48 | INFO | search_model_configurations | Saved search progress after 267 completed trials
+2026-05-02 02:02:48 | INFO | search_model_configurations | Search trial model=lstm lag=96 config={'model_type': 'lstm', 'hidden': 32, 'num_layers': 1, 'learning_rate': 0.005}
+2026-05-02 02:02:52 | INFO | search_model_configurations | Search result model=lstm lag=96 final_train_mse=1.814444e+01 final_test_mse=1.891519e+01
+2026-05-02 02:02:53 | INFO | search_model_configurations | Saved search progress after 268 completed trials
+2026-05-02 02:02:53 | INFO | search_model_configurations | Search trial model=lstm lag=96 config={'model_type': 'lstm', 'hidden': 48, 'num_layers': 3, 'learning_rate': 0.003}
+2026-05-02 02:02:59 | INFO | search_model_configurations | Search result model=lstm lag=96 final_train_mse=4.287183e+00 final_test_mse=1.358806e+01
+2026-05-02 02:03:00 | INFO | search_model_configurations | Saved search progress after 269 completed trials
+2026-05-02 02:03:00 | INFO | search_model_configurations | Search trial model=lstm lag=96 config={'model_type': 'lstm', 'hidden': 64, 'num_layers': 2, 'learning_rate': 0.2}
+2026-05-02 02:03:05 | INFO | search_model_configurations | Search result model=lstm lag=96 final_train_mse=8.954011e+01 final_test_mse=9.781266e+01
+2026-05-02 02:03:09 | INFO | search_model_configurations | Saved search progress after 270 completed trials
+2026-05-02 02:03:09 | INFO | search_model_configurations | Search trial model=lstm lag=96 config={'model_type': 'lstm', 'hidden': 64, 'num_layers': 3, 'learning_rate': 0.02}
+2026-05-02 02:03:15 | INFO | search_model_configurations | Search result model=lstm lag=96 final_train_mse=9.626198e-04 final_test_mse=5.205610e+00
+2026-05-02 02:03:18 | INFO | search_model_configurations | Saved search progress after 271 completed trials
+2026-05-02 02:03:18 | INFO | search_model_configurations | Search trial model=lstm lag=96 config={'model_type': 'lstm', 'hidden': 64, 'num_layers': 3, 'learning_rate': 0.002}
+2026-05-02 02:03:25 | INFO | search_model_configurations | Search result model=lstm lag=96 final_train_mse=8.953806e+01 final_test_mse=9.780854e+01
+2026-05-02 02:03:25 | INFO | search_model_configurations | Saved search progress after 272 completed trials
+2026-05-02 02:03:25 | INFO | search_model_configurations | Search trial model=lstm lag=96 config={'model_type': 'lstm', 'hidden': 96, 'num_layers': 1, 'learning_rate': 0.01}
+2026-05-02 02:03:31 | INFO | search_model_configurations | Search result model=lstm lag=96 final_train_mse=9.215966e+01 final_test_mse=8.400260e+01
+2026-05-02 02:03:31 | INFO | search_model_configurations | Saved search progress after 273 completed trials
+2026-05-02 02:03:31 | INFO | search_model_configurations | Search trial model=lstm lag=96 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 2, 'learning_rate': 0.05}
+2026-05-02 02:03:42 | INFO | search_model_configurations | Search result model=lstm lag=96 final_train_mse=5.434496e+01 final_test_mse=9.830107e+01
+2026-05-02 02:03:43 | INFO | search_model_configurations | Saved search progress after 274 completed trials
+2026-05-02 02:03:43 | INFO | search_model_configurations | Search trial model=lstm lag=96 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 3, 'learning_rate': 0.1}
+2026-05-02 02:03:58 | INFO | search_model_configurations | Search result model=lstm lag=96 final_train_mse=9.394084e+01 final_test_mse=8.022276e+01
+2026-05-02 02:03:58 | INFO | search_model_configurations | Saved search progress after 275 completed trials
+2026-05-02 02:03:58 | INFO | search_model_configurations | Search trial model=lstm lag=96 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 3, 'learning_rate': 0.001}
+2026-05-02 02:04:14 | INFO | search_model_configurations | Search result model=lstm lag=96 final_train_mse=1.515607e+01 final_test_mse=2.553310e+01
+2026-05-02 02:04:15 | INFO | search_model_configurations | Saved search progress after 276 completed trials
+2026-05-02 02:04:15 | INFO | search_model_configurations | Prepared 10/270 lstm trials for lag=112
+2026-05-02 02:04:15 | INFO | search_model_configurations | Search trial model=lstm lag=112 config={'model_type': 'lstm', 'hidden': 16, 'num_layers': 1, 'learning_rate': 0.003}
+2026-05-02 02:04:19 | INFO | search_model_configurations | Search result model=lstm lag=112 final_train_mse=8.287997e+01 final_test_mse=7.285847e+01
+2026-05-02 02:04:20 | INFO | search_model_configurations | Saved search progress after 277 completed trials
+2026-05-02 02:04:20 | INFO | search_model_configurations | Search trial model=lstm lag=112 config={'model_type': 'lstm', 'hidden': 16, 'num_layers': 2, 'learning_rate': 0.001}
+2026-05-02 02:04:25 | INFO | search_model_configurations | Search result model=lstm lag=112 final_train_mse=6.457348e+01 final_test_mse=6.209455e+01
+2026-05-02 02:04:26 | INFO | search_model_configurations | Saved search progress after 278 completed trials
+2026-05-02 02:04:26 | INFO | search_model_configurations | Search trial model=lstm lag=112 config={'model_type': 'lstm', 'hidden': 48, 'num_layers': 2, 'learning_rate': 0.2}
+2026-05-02 02:04:31 | INFO | search_model_configurations | Search result model=lstm lag=112 final_train_mse=1.484543e+02 final_test_mse=1.403095e+02
+2026-05-02 02:04:35 | INFO | search_model_configurations | Saved search progress after 279 completed trials
+2026-05-02 02:04:35 | INFO | search_model_configurations | Search trial model=lstm lag=112 config={'model_type': 'lstm', 'hidden': 48, 'num_layers': 2, 'learning_rate': 0.1}
+2026-05-02 02:04:41 | INFO | search_model_configurations | Search result model=lstm lag=112 final_train_mse=1.521444e+02 final_test_mse=1.390912e+02
+2026-05-02 02:04:50 | INFO | search_model_configurations | Saved search progress after 280 completed trials
+2026-05-02 02:04:50 | INFO | search_model_configurations | Search trial model=lstm lag=112 config={'model_type': 'lstm', 'hidden': 64, 'num_layers': 1, 'learning_rate': 0.005}
+2026-05-02 02:04:55 | INFO | search_model_configurations | Search result model=lstm lag=112 final_train_mse=1.490178e+02 final_test_mse=1.448316e+02
+2026-05-02 02:05:07 | INFO | search_model_configurations | Saved search progress after 281 completed trials
+2026-05-02 02:05:07 | INFO | search_model_configurations | Search trial model=lstm lag=112 config={'model_type': 'lstm', 'hidden': 64, 'num_layers': 2, 'learning_rate': 0.05}
+2026-05-02 02:05:13 | INFO | search_model_configurations | Search result model=lstm lag=112 final_train_mse=1.469823e+02 final_test_mse=1.437629e+02
+2026-05-02 02:05:17 | INFO | search_model_configurations | Saved search progress after 282 completed trials
+2026-05-02 02:05:17 | INFO | search_model_configurations | Search trial model=lstm lag=112 config={'model_type': 'lstm', 'hidden': 96, 'num_layers': 1, 'learning_rate': 0.02}
+2026-05-02 02:05:22 | INFO | search_model_configurations | Search result model=lstm lag=112 final_train_mse=2.267472e+01 final_test_mse=1.636297e+02
+2026-05-02 02:05:23 | INFO | search_model_configurations | Saved search progress after 283 completed trials
+2026-05-02 02:05:23 | INFO | search_model_configurations | Search trial model=lstm lag=112 config={'model_type': 'lstm', 'hidden': 96, 'num_layers': 3, 'learning_rate': 0.0007}
+2026-05-02 02:05:33 | INFO | search_model_configurations | Search result model=lstm lag=112 final_train_mse=6.577043e+01 final_test_mse=1.048084e+02
+2026-05-02 02:05:34 | INFO | search_model_configurations | Saved search progress after 284 completed trials
+2026-05-02 02:05:34 | INFO | search_model_configurations | Search trial model=lstm lag=112 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 1, 'learning_rate': 0.002}
+2026-05-02 02:05:42 | INFO | search_model_configurations | Search result model=lstm lag=112 final_train_mse=1.442989e+02 final_test_mse=1.708741e+02
+2026-05-02 02:05:43 | INFO | search_model_configurations | Saved search progress after 285 completed trials
+2026-05-02 02:05:43 | INFO | search_model_configurations | Search trial model=lstm lag=112 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 3, 'learning_rate': 0.01}
+2026-05-02 02:06:00 | INFO | search_model_configurations | Search result model=lstm lag=112 final_train_mse=6.566048e+01 final_test_mse=9.447814e+01
+2026-05-02 02:06:01 | INFO | search_model_configurations | Saved search progress after 286 completed trials
+2026-05-02 02:06:01 | INFO | search_model_configurations | Prepared 10/270 lstm trials for lag=128
+2026-05-02 02:06:01 | INFO | search_model_configurations | Search trial model=lstm lag=128 config={'model_type': 'lstm', 'hidden': 32, 'num_layers': 1, 'learning_rate': 0.0007}
+2026-05-02 02:06:05 | INFO | search_model_configurations | Search result model=lstm lag=128 final_train_mse=3.345557e+01 final_test_mse=3.838624e+01
+2026-05-02 02:06:06 | INFO | search_model_configurations | Saved search progress after 287 completed trials
+2026-05-02 02:06:06 | INFO | search_model_configurations | Search trial model=lstm lag=128 config={'model_type': 'lstm', 'hidden': 32, 'num_layers': 2, 'learning_rate': 0.02}
+2026-05-02 02:06:11 | INFO | search_model_configurations | Search result model=lstm lag=128 final_train_mse=7.931367e+01 final_test_mse=1.227335e+02
+2026-05-02 02:06:11 | INFO | search_model_configurations | Saved search progress after 288 completed trials
+2026-05-02 02:06:11 | INFO | search_model_configurations | Search trial model=lstm lag=128 config={'model_type': 'lstm', 'hidden': 32, 'num_layers': 3, 'learning_rate': 0.2}
+2026-05-02 02:06:17 | INFO | search_model_configurations | Search result model=lstm lag=128 final_train_mse=1.132111e+02 final_test_mse=1.218866e+02
+2026-05-02 02:06:18 | INFO | search_model_configurations | Saved search progress after 289 completed trials
+2026-05-02 02:06:18 | INFO | search_model_configurations | Search trial model=lstm lag=128 config={'model_type': 'lstm', 'hidden': 48, 'num_layers': 2, 'learning_rate': 0.1}
+2026-05-02 02:06:23 | INFO | search_model_configurations | Search result model=lstm lag=128 final_train_mse=5.052525e+01 final_test_mse=1.358456e+02
+2026-05-02 02:06:24 | INFO | search_model_configurations | Saved search progress after 290 completed trials
+2026-05-02 02:06:24 | INFO | search_model_configurations | Search trial model=lstm lag=128 config={'model_type': 'lstm', 'hidden': 64, 'num_layers': 2, 'learning_rate': 0.002}
+2026-05-02 02:06:30 | INFO | search_model_configurations | Search result model=lstm lag=128 final_train_mse=4.462543e+01 final_test_mse=5.707023e+01
+2026-05-02 02:06:31 | INFO | search_model_configurations | Saved search progress after 291 completed trials
+2026-05-02 02:06:31 | INFO | search_model_configurations | Search trial model=lstm lag=128 config={'model_type': 'lstm', 'hidden': 64, 'num_layers': 2, 'learning_rate': 0.001}
+2026-05-02 02:06:37 | INFO | search_model_configurations | Search result model=lstm lag=128 final_train_mse=1.117940e+01 final_test_mse=1.673504e+01
+2026-05-02 02:06:37 | INFO | search_model_configurations | Saved search progress after 292 completed trials
+2026-05-02 02:06:37 | INFO | search_model_configurations | Search trial model=lstm lag=128 config={'model_type': 'lstm', 'hidden': 96, 'num_layers': 3, 'learning_rate': 0.003}
+2026-05-02 02:06:48 | INFO | search_model_configurations | Search result model=lstm lag=128 final_train_mse=3.172519e+01 final_test_mse=6.730106e+01
+2026-05-02 02:06:49 | INFO | search_model_configurations | Saved search progress after 293 completed trials
+2026-05-02 02:06:49 | INFO | search_model_configurations | Search trial model=lstm lag=128 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 1, 'learning_rate': 0.01}
+2026-05-02 02:06:57 | INFO | search_model_configurations | Search result model=lstm lag=128 final_train_mse=1.086961e+02 final_test_mse=1.242211e+02
+2026-05-02 02:06:58 | INFO | search_model_configurations | Saved search progress after 294 completed trials
+2026-05-02 02:06:58 | INFO | search_model_configurations | Search trial model=lstm lag=128 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 2, 'learning_rate': 0.05}
+2026-05-02 02:07:12 | INFO | search_model_configurations | Search result model=lstm lag=128 final_train_mse=1.045775e+02 final_test_mse=1.215677e+02
+2026-05-02 02:07:28 | INFO | search_model_configurations | Saved search progress after 295 completed trials
+2026-05-02 02:07:28 | INFO | search_model_configurations | Search trial model=lstm lag=128 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 2, 'learning_rate': 0.005}
+2026-05-02 02:07:42 | INFO | search_model_configurations | Search result model=lstm lag=128 final_train_mse=7.834948e+00 final_test_mse=1.799823e+01
+2026-05-02 02:07:42 | INFO | search_model_configurations | Saved search progress after 296 completed trials
+2026-05-02 02:07:42 | INFO | search_model_configurations | Prepared 10/270 lstm trials for lag=160
+2026-05-02 02:07:42 | INFO | search_model_configurations | Search trial model=lstm lag=160 config={'model_type': 'lstm', 'hidden': 32, 'num_layers': 1, 'learning_rate': 0.1}
+2026-05-02 02:07:47 | INFO | search_model_configurations | Search result model=lstm lag=160 final_train_mse=9.472160e+01 final_test_mse=9.297608e+01
+2026-05-02 02:07:48 | INFO | search_model_configurations | Saved search progress after 297 completed trials
+2026-05-02 02:07:48 | INFO | search_model_configurations | Search trial model=lstm lag=160 config={'model_type': 'lstm', 'hidden': 32, 'num_layers': 1, 'learning_rate': 0.002}
+2026-05-02 02:07:52 | INFO | search_model_configurations | Search result model=lstm lag=160 final_train_mse=9.364957e+01 final_test_mse=8.981644e+01
+2026-05-02 02:07:53 | INFO | search_model_configurations | Saved search progress after 298 completed trials
+2026-05-02 02:07:53 | INFO | search_model_configurations | Search trial model=lstm lag=160 config={'model_type': 'lstm', 'hidden': 32, 'num_layers': 3, 'learning_rate': 0.02}
+2026-05-02 02:07:59 | INFO | search_model_configurations | Search result model=lstm lag=160 final_train_mse=9.497144e+01 final_test_mse=9.341977e+01
+2026-05-02 02:08:00 | INFO | search_model_configurations | Saved search progress after 299 completed trials
+2026-05-02 02:08:00 | INFO | search_model_configurations | Search trial model=lstm lag=160 config={'model_type': 'lstm', 'hidden': 48, 'num_layers': 2, 'learning_rate': 0.003}
+2026-05-02 02:08:07 | INFO | search_model_configurations | Search result model=lstm lag=160 final_train_mse=8.707381e+01 final_test_mse=1.040785e+02
+2026-05-02 02:08:07 | INFO | search_model_configurations | Saved search progress after 300 completed trials
+2026-05-02 02:08:07 | INFO | search_model_configurations | Search trial model=lstm lag=160 config={'model_type': 'lstm', 'hidden': 48, 'num_layers': 3, 'learning_rate': 0.01}
+2026-05-02 02:08:15 | INFO | search_model_configurations | Search result model=lstm lag=160 final_train_mse=6.689140e-01 final_test_mse=1.237936e+01
+2026-05-02 02:08:16 | INFO | search_model_configurations | Saved search progress after 301 completed trials
+2026-05-02 02:08:16 | INFO | search_model_configurations | Search trial model=lstm lag=160 config={'model_type': 'lstm', 'hidden': 48, 'num_layers': 3, 'learning_rate': 0.005}
+2026-05-02 02:08:23 | INFO | search_model_configurations | Search result model=lstm lag=160 final_train_mse=9.150211e+01 final_test_mse=1.046075e+02
+2026-05-02 02:08:24 | INFO | search_model_configurations | Saved search progress after 302 completed trials
+2026-05-02 02:08:24 | INFO | search_model_configurations | Search trial model=lstm lag=160 config={'model_type': 'lstm', 'hidden': 64, 'num_layers': 2, 'learning_rate': 0.0007}
+2026-05-02 02:08:31 | INFO | search_model_configurations | Search result model=lstm lag=160 final_train_mse=9.706618e+01 final_test_mse=8.519151e+01
+2026-05-02 02:08:32 | INFO | search_model_configurations | Saved search progress after 303 completed trials
+2026-05-02 02:08:32 | INFO | search_model_configurations | Search trial model=lstm lag=160 config={'model_type': 'lstm', 'hidden': 96, 'num_layers': 2, 'learning_rate': 0.2}
+2026-05-02 02:08:41 | INFO | search_model_configurations | Search result model=lstm lag=160 final_train_mse=9.362519e+01 final_test_mse=9.916341e+01
+2026-05-02 02:08:42 | INFO | search_model_configurations | Saved search progress after 304 completed trials
+2026-05-02 02:08:42 | INFO | search_model_configurations | Search trial model=lstm lag=160 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 1, 'learning_rate': 0.001}
+2026-05-02 02:08:52 | INFO | search_model_configurations | Search result model=lstm lag=160 final_train_mse=8.609667e+01 final_test_mse=1.001465e+02
+2026-05-02 02:08:53 | INFO | search_model_configurations | Saved search progress after 305 completed trials
+2026-05-02 02:08:53 | INFO | search_model_configurations | Search trial model=lstm lag=160 config={'model_type': 'lstm', 'hidden': 128, 'num_layers': 2, 'learning_rate': 0.05}
+2026-05-02 02:09:09 | INFO | search_model_configurations | Search result model=lstm lag=160 final_train_mse=8.953870e+01 final_test_mse=1.044983e+02
+2026-05-02 02:09:10 | INFO | search_model_configurations | Saved search progress after 306 completed trials
+2026-05-02 02:09:10 | INFO | search_model_configurations | Saved selected neural configurations to /mntdata/src/Neuro-Spectrum/outputs/neural_spectral_estimation/selected_neural_configurations.json
+2026-05-02 02:09:10 | INFO | search_model_configurations | Selected mlp configuration: {'model_type': 'mlp', 'hidden': 512, 'num_hidden_layers': 0, 'learning_rate': 0.05, 'lag': 160, 'epochs': 600, 'final_train_mse': 0.11095244437456131, 'final_test_mse': 0.1547412872314453, 'best_test_mse': 0.1542340348406536, 'best_epoch': 133, 'loss_history_npz': 'outputs/neural_spectral_estimation/configuration_search/loss_histories/mlp_lag_160_hidden_512_layers_0_lr_0p05.npz'}
+2026-05-02 02:09:10 | INFO | search_model_configurations | Selected lstm configuration: {'model_type': 'lstm', 'hidden': 64, 'num_layers': 3, 'learning_rate': 0.02, 'lag': 96, 'epochs': 600, 'final_train_mse': 0.0009626198443584144, 'final_test_mse': 5.205610470655488, 'best_test_mse': 5.077399723704269, 'best_epoch': 442, 'loss_history_npz': 'outputs/neural_spectral_estimation/configuration_search/loss_histories/lstm_lag_96_hidden_64_layers_3_lr_0p02.npz'}
+2026-05-02 02:10:52 | INFO | search_model_configurations | Saved mlp search loss panel to /mntdata/src/Neuro-Spectrum/outputs/figures/neural_training_loss/search_mlp_all_loss_panel.png
+2026-05-02 02:11:10 | INFO | search_model_configurations | Saved lstm search loss panel to /mntdata/src/Neuro-Spectrum/outputs/figures/neural_training_loss/search_lstm_all_loss_panel.png

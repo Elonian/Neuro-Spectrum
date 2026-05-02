@@ -1,0 +1,16 @@
+training:
+  device: auto
+  batch_size: 0
+  log_every: 100
+  model_type: mlp
+  lag: 160
+  hidden: 512
+  num_hidden_layers: 0
+  epochs: 1200
+  learning_rate: 0.05
+  seed: 0
+
+paths:
+  training_data_dir: data/neural_training
+  model_dir: outputs/models
+  figures_dir: outputs/figures

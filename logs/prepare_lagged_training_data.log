@@ -1,0 +1,10 @@
+2026-05-02 00:53:58 | INFO | prepare_lagged_training_data | Log file: /mntdata/src/Neuro-Spectrum/logs/prepare_lagged_training_data.log
+2026-05-02 00:53:59 | INFO | prepare_lagged_training_data | Saved lag=16 training pair to /mntdata/src/Neuro-Spectrum/data/neural_training/lag_16
+2026-05-02 00:53:59 | INFO | prepare_lagged_training_data | Saved lag=32 training pair to /mntdata/src/Neuro-Spectrum/data/neural_training/lag_32
+2026-05-02 00:53:59 | INFO | prepare_lagged_training_data | Saved lag=48 training pair to /mntdata/src/Neuro-Spectrum/data/neural_training/lag_48
+2026-05-02 00:53:59 | INFO | prepare_lagged_training_data | Saved lag=64 training pair to /mntdata/src/Neuro-Spectrum/data/neural_training/lag_64
+2026-05-02 00:53:59 | INFO | prepare_lagged_training_data | Saved lag=80 training pair to /mntdata/src/Neuro-Spectrum/data/neural_training/lag_80
+2026-05-02 00:54:00 | INFO | prepare_lagged_training_data | Saved lag=96 training pair to /mntdata/src/Neuro-Spectrum/data/neural_training/lag_96
+2026-05-02 00:54:00 | INFO | prepare_lagged_training_data | Saved lag=112 training pair to /mntdata/src/Neuro-Spectrum/data/neural_training/lag_112
+2026-05-02 00:54:00 | INFO | prepare_lagged_training_data | Saved lag=128 training pair to /mntdata/src/Neuro-Spectrum/data/neural_training/lag_128
+2026-05-02 00:54:00 | INFO | prepare_lagged_training_data | Saved lag=160 training pair to /mntdata/src/Neuro-Spectrum/data/neural_training/lag_160

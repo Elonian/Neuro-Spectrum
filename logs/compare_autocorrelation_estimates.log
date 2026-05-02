@@ -1,0 +1,8 @@
+2026-05-02 00:00:54 | INFO | compare_autocorrelation_estimates | Log file: /mntdata/src/Neuro-Spectrum/logs/compare_autocorrelation_estimates.log
+2026-05-02 00:00:54 | INFO | compare_autocorrelation_estimates | Computed autocorrelation estimate for N=64
+2026-05-02 00:00:54 | INFO | compare_autocorrelation_estimates | Computed autocorrelation estimate for N=128
+2026-05-02 00:00:54 | INFO | compare_autocorrelation_estimates | Computed autocorrelation estimate for N=256
+2026-05-02 00:00:54 | INFO | compare_autocorrelation_estimates | Computed autocorrelation estimate for N=512
+2026-05-02 00:00:54 | INFO | compare_autocorrelation_estimates | Computed autocorrelation estimate for N=1024
+2026-05-02 00:00:54 | INFO | compare_autocorrelation_estimates | Saved autocorrelation estimates to /mntdata/src/Neuro-Spectrum/outputs/classical_spectral_estimation/autocorrelation_estimates.npz
+2026-05-02 00:00:55 | INFO | compare_autocorrelation_estimates | Saved autocorrelation figure to /mntdata/src/Neuro-Spectrum/outputs/figures/autocorrelation_comparison.png

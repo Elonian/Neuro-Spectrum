@@ -1,0 +1,11 @@
+project:
+  seed: 7
+  sample_length: 1024
+
+lag_experiments:
+  values: [16, 32, 48, 64, 80, 96, 112, 128, 160]
+  selected_lag: 160
+
+paths:
+  training_data_dir: data/neural_training
+  inference_input_dir: data/neural_training/inference_inputs

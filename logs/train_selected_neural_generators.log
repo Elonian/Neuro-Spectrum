@@ -1,0 +1,31 @@
+2026-05-02 02:19:37 | INFO | train_selected_neural_generators | Log file: /mntdata/src/Neuro-Spectrum/logs/train_selected_neural_generators.log
+2026-05-02 02:19:37 | INFO | train_selected_neural_generators | Training selected lstm lag=96 config={'hidden': 64, 'num_layers': 3} learning_rate=0.02
+2026-05-02 02:19:38 | INFO | train_selected_neural_generators | epoch=1/1200 train_mse=8.955070e+01 test_mse=9.786172e+01 elapsed_seconds=0.2
+2026-05-02 02:19:39 | INFO | train_selected_neural_generators | epoch=100/1200 train_mse=4.282635e+01 test_mse=5.289715e+01 elapsed_seconds=1.2
+2026-05-02 02:19:40 | INFO | train_selected_neural_generators | epoch=200/1200 train_mse=1.281499e+00 test_mse=8.946808e+00 elapsed_seconds=2.2
+2026-05-02 02:19:41 | INFO | train_selected_neural_generators | epoch=300/1200 train_mse=6.545012e-02 test_mse=5.391126e+00 elapsed_seconds=3.3
+2026-05-02 02:19:42 | INFO | train_selected_neural_generators | epoch=400/1200 train_mse=8.187433e-03 test_mse=5.214397e+00 elapsed_seconds=4.3
+2026-05-02 02:19:43 | INFO | train_selected_neural_generators | epoch=500/1200 train_mse=2.188970e-03 test_mse=5.242626e+00 elapsed_seconds=5.3
+2026-05-02 02:19:44 | INFO | train_selected_neural_generators | epoch=600/1200 train_mse=9.626198e-04 test_mse=5.205610e+00 elapsed_seconds=6.3
+2026-05-02 02:19:45 | INFO | train_selected_neural_generators | epoch=700/1200 train_mse=1.951113e-03 test_mse=5.397642e+00 elapsed_seconds=7.4
+2026-05-02 02:19:46 | INFO | train_selected_neural_generators | epoch=800/1200 train_mse=1.581421e-04 test_mse=5.403394e+00 elapsed_seconds=8.4
+2026-05-02 02:19:48 | INFO | train_selected_neural_generators | epoch=900/1200 train_mse=1.673846e-04 test_mse=5.398241e+00 elapsed_seconds=9.4
+2026-05-02 02:19:48 | INFO | train_selected_neural_generators | epoch=1000/1200 train_mse=2.824508e-05 test_mse=5.397772e+00 elapsed_seconds=10.4
+2026-05-02 02:19:50 | INFO | train_selected_neural_generators | epoch=1100/1200 train_mse=2.269433e-04 test_mse=5.403100e+00 elapsed_seconds=11.5
+2026-05-02 02:19:51 | INFO | train_selected_neural_generators | epoch=1200/1200 train_mse=1.075767e-04 test_mse=5.414616e+00 elapsed_seconds=12.4
+2026-05-02 02:19:51 | INFO | train_selected_neural_generators | Saved selected lstm checkpoint to /mntdata/src/Neuro-Spectrum/outputs/models/simple_lstm_lag_96.pt from epoch=442 test_mse=5.077400e+00
+2026-05-02 02:19:52 | INFO | train_selected_neural_generators | Training selected mlp lag=160 config={'hidden': 512, 'num_hidden_layers': 0} learning_rate=0.05
+2026-05-02 02:19:52 | INFO | train_selected_neural_generators | epoch=1/1200 train_mse=9.615055e+01 test_mse=8.099583e+01 elapsed_seconds=0.0
+2026-05-02 02:19:53 | INFO | train_selected_neural_generators | epoch=100/1200 train_mse=1.236848e-01 test_mse=1.716611e-01 elapsed_seconds=0.5
+2026-05-02 02:19:53 | INFO | train_selected_neural_generators | epoch=200/1200 train_mse=1.109528e-01 test_mse=1.547617e-01 elapsed_seconds=0.9
+2026-05-02 02:19:54 | INFO | train_selected_neural_generators | epoch=300/1200 train_mse=1.109525e-01 test_mse=1.547413e-01 elapsed_seconds=1.4
+2026-05-02 02:19:54 | INFO | train_selected_neural_generators | epoch=400/1200 train_mse=1.109524e-01 test_mse=1.547413e-01 elapsed_seconds=1.8
+2026-05-02 02:19:55 | INFO | train_selected_neural_generators | epoch=500/1200 train_mse=1.109524e-01 test_mse=1.547412e-01 elapsed_seconds=2.4
+2026-05-02 02:19:55 | INFO | train_selected_neural_generators | epoch=600/1200 train_mse=1.109524e-01 test_mse=1.547413e-01 elapsed_seconds=2.8
+2026-05-02 02:19:56 | INFO | train_selected_neural_generators | epoch=700/1200 train_mse=1.109524e-01 test_mse=1.547412e-01 elapsed_seconds=3.3
+2026-05-02 02:19:56 | INFO | train_selected_neural_generators | epoch=800/1200 train_mse=1.109524e-01 test_mse=1.547411e-01 elapsed_seconds=3.8
+2026-05-02 02:19:56 | INFO | train_selected_neural_generators | epoch=900/1200 train_mse=1.109524e-01 test_mse=1.547412e-01 elapsed_seconds=4.3
+2026-05-02 02:19:57 | INFO | train_selected_neural_generators | epoch=1000/1200 train_mse=1.109524e-01 test_mse=1.547412e-01 elapsed_seconds=4.8
+2026-05-02 02:19:57 | INFO | train_selected_neural_generators | epoch=1100/1200 train_mse=1.109527e-01 test_mse=1.547422e-01 elapsed_seconds=5.2
+2026-05-02 02:19:58 | INFO | train_selected_neural_generators | epoch=1200/1200 train_mse=1.109524e-01 test_mse=1.547414e-01 elapsed_seconds=5.7
+2026-05-02 02:19:59 | INFO | train_selected_neural_generators | Saved selected mlp checkpoint to /mntdata/src/Neuro-Spectrum/outputs/models/simple_mlp_lag_160.pt from epoch=133 test_mse=1.542340e-01

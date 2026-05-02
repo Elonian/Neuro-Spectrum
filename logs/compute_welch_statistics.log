@@ -1,0 +1,3 @@
+2026-05-02 00:01:19 | INFO | compute_welch_statistics | Log file: /mntdata/src/Neuro-Spectrum/logs/compute_welch_statistics.log
+2026-05-02 00:01:20 | INFO | compute_welch_statistics | Saved Welch statistics to /mntdata/src/Neuro-Spectrum/outputs/classical_spectral_estimation/welch_statistics.npz
+2026-05-02 00:01:20 | INFO | compute_welch_statistics | Saved Welch figures under /mntdata/src/Neuro-Spectrum/outputs/figures
